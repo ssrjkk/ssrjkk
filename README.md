@@ -19,7 +19,7 @@ with a strong QA/engineering background that I bring to everything I build.
 | Direction | What it means | Flagship repos |
 |-----------|---------------|----------------|
 | **Backend** | Async Python/Go services, gRPC, Kafka, PostgreSQL, observability, CI/CD | [`raven`](https://github.com/ssrjkk/raven) · [`bothive`](https://github.com/ssrjkk/bothive) |
-| **Web3** | Smart contracts (Solidity/fhEVM), apps on Base, private ML on encrypted data (FHE) | [`shroud`](https://github.com/ssrjkk/shroud) · [`tippy-on-base`](https://github.com/ssrjkk/tippy-on-base) |
+| **Web3** | Smart contracts (Solidity/fhEVM), apps on Base, private ML on encrypted data (FHE) | [`shroud`](https://github.com/ssrjkk/shroud) · [`tippy-on-base`](https://github.com/ssrjkk/tippy-on-base) · [`wake`](https://github.com/ssrjkk/wake) |
 | **AI tooling** | Bilingual Agent Skills library (100 skills), neuro-symbolic engines, AI assistants | [`agent-skills`](https://github.com/ssrjkk/agent-skills) · [`noema`](https://github.com/ssrjkk/noema) · [`raven`](https://github.com/ssrjkk/raven) |
 
 ## Selected work
@@ -33,6 +33,8 @@ with a strong QA/engineering background that I bring to everything I build.
   ZK proof of compute, streaming payouts.
 - **tippy-on-base** — Telegram TipBot turning any chat into an on-chain economy: USDC tips,
   reactions, donate pages, prediction markets — zero gas for users.
+- **wake** — Web3 wallet dashboard: wagmi/viem + WalletConnect, zkLighter L2 account management
+  (React + Vite + Tailwind).
 - **noema** — neuro-symbolic engine that generates technical solutions, verifies them with Z3
   and fixes its own incidents via pull requests.
 
@@ -62,7 +64,7 @@ production-grade код — с сильной инженерной базой в
 | Направление | Что это | Ключевые проекты |
 |-------------|---------|------------------|
 | **Backend** | Async Python/Go сервисы, gRPC, Kafka, PostgreSQL, observability, CI/CD | [`raven`](https://github.com/ssrjkk/raven) · [`bothive`](https://github.com/ssrjkk/bothive) |
-| **Web3** | Смарт-контракты (Solidity/fhEVM), приложения на Base, приватный ML над шифрованными данными (FHE) | [`shroud`](https://github.com/ssrjkk/shroud) · [`tippy-on-base`](https://github.com/ssrjkk/tippy-on-base) |
+| **Web3** | Смарт-контракты (Solidity/fhEVM), приложения на Base, приватный ML над шифрованными данными (FHE) | [`shroud`](https://github.com/ssrjkk/shroud) · [`tippy-on-base`](https://github.com/ssrjkk/tippy-on-base) · [`wake`](https://github.com/ssrjkk/wake) |
 | **AI tooling** | Двуязычная библиотека Agent Skills (100 навыков), нейро-символические движки, AI-ассистенты | [`agent-skills`](https://github.com/ssrjkk/agent-skills) · [`noema`](https://github.com/ssrjkk/noema) · [`raven`](https://github.com/ssrjkk/raven) |
 
 ## Избранные проекты
@@ -75,6 +77,8 @@ production-grade код — с сильной инженерной базой в
   ZK-доказательство вычислений, стриминговые выплаты.
 - **tippy-on-base** — Telegram-бот, превращающий любой чат в ончейн-экономику: USDC-чаевые,
   реакции, страницы донатов, рынки предсказаний — без газа для пользователей.
+- **wake** — Web3-дашборд кошелька: wagmi/viem + WalletConnect, управление L2-аккаунтами через
+  zkLighter (React + Vite + Tailwind).
 - **noema** — нейро-символический движок: генерирует технические решения, формально
   верифицирует их с Z3 и сам чинит свои инциденты через pull requests.
 
