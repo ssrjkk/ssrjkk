@@ -7,7 +7,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/ssrjkk?style=social)](https://github.com/ssrjkk)
 [![GitHub stars](https://img.shields.io/github/stars/ssrjkk?affiliations=OWNER&style=social)](https://github.com/ssrjkk?tab=repositories)
 ![GitHub commits](https://img.shields.io/badge/commits-2000+-brightgreen)
-![GitHub repos](https://img.shields.io/badge/repos-18-blue)
+![GitHub repos](https://img.shields.io/badge/repos-14-blue)
 
 **Building production-grade async services, Web3 protocols, and AI developer tools**
 
