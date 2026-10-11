@@ -6,7 +6,7 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/ssrjkk?style=social)](https://github.com/ssrjkk)
 [![GitHub stars](https://img.shields.io/github/stars/ssrjkk?affiliations=OWNER&style=social)](https://github.com/ssrjkk?tab=repositories)
-![GitHub commits](https://img.shields.io/badge/commits-2000+-brightgreen)
+![GitHub commits](https://img.shields.io/badge/commits-1200+-brightgreen)
 ![GitHub repos](https://img.shields.io/badge/repos-14-blue)
 
 **Building production-grade async services, Web3 protocols, and AI developer tools**
@@ -110,9 +110,6 @@ Backend engineer specializing in **async Python/Go services**, **event-driven ar
 |---------|-------------|-------|
 | [**harvest**](https://github.com/ssrjkk/harvest) | GitHub contribution analytics dashboard. Tracks commit activity, streaks, development patterns. | Python, Dashboard, Analytics |
 | [**ezzoffer**](https://github.com/ssrjkk/ezzoffer) | AI-powered job search automation for hh.ru. Auto-applies, manages resumes, Telegram notifications. | Next.js, TypeScript, React |
-| [**b2w-crypto-tg-bot**](https://github.com/ssrjkk/b2w-crypto-tg-bot) | Telegram crypto bot for portfolio tracking and alerts. Price monitoring, market analysis. | Python, FastAPI, PostgreSQL |
-| [**twinby-swipe-bot**](https://github.com/ssrjkk/twinby-swipe-bot) | Telegram swipe bot for content discovery. Multi-platform automation (Android/iOS/macOS). | Python, Automation, AI |
-| [**tt_bot**](https://github.com/ssrjkk/tt_bot) | Telegram bot for university lab management. Student submissions, reports, grading workflows. | Python, pytest |
 
 ---
 
@@ -150,5 +147,5 @@ Backend engineer specializing in **async Python/Go services**, **event-driven ar
 ---
 
 <div align="center">
-<sub>18 repositories · 2000+ commits · Production-grade code</sub>
+<sub>14 public repositories · 1200+ commits · Production-grade code</sub>
 </div>
