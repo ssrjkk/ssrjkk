@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  docs:
+    name: Документация
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Профиль — витрина: относительные ссылки, незакрытые теги и оставшиеся
+      # заготовки в нём ломают страницу незаметно для автора. Проверка ловит
+      # это до публикации, а не после жалоб читателей.
+      - name: Проверка документации
+        run: python scripts/check_docs.py
