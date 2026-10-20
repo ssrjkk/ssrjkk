@@ -1,0 +1,30 @@
+version: 2
+# @author ssrjkk | профиль
+#
+# В профиле нет ни npm, ни pip: это витрина на markdown. Раньше здесь был
+# настроен npm в корне, и каждую неделю Dependabot падал с «/package.json
+# not found» — красный прогон в Actions без единой настоящей зависимости.
+#
+# Теперь обновляется то, что в репозитории действительно есть: версии
+# actions в workflow.
+updates:
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+      day: 'monday'
+    open-pull-requests-limit: 5
+    labels:
+      - 'dependencies'
+      - 'github-actions'
+    commit-message:
+      prefix: 'chore'
+      prefix-development: 'chore'
+      include: 'scope'
+    groups:
+      github-actions:
+        patterns:
+          - '*'
+        update-types:
+          - minor
+          - patch
