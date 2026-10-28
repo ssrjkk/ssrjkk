@@ -7,7 +7,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/ssrjkk?style=social)](https://github.com/ssrjkk)
 [![GitHub stars](https://img.shields.io/github/stars/ssrjkk?affiliations=OWNER&style=social)](https://github.com/ssrjkk?tab=repositories)
 ![GitHub commits](https://img.shields.io/badge/commits-1200+-brightgreen)
-![GitHub repos](https://img.shields.io/badge/repos-14-blue)
+![GitHub repos](https://img.shields.io/badge/repos-16-blue)
 
 **Building production-grade async services, Web3 protocols, and AI developer tools**
 
@@ -108,7 +108,8 @@ Backend engineer specializing in **async Python/Go services**, **event-driven ar
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**harvest**](https://github.com/ssrjkk/harvest) | GitHub contribution analytics dashboard. Tracks commit activity, streaks, development patterns. | Python, Dashboard, Analytics |
+| [**shopwatch**](https://github.com/ssrjkk/shopwatch) | Live watch store: 313 models, cart, filters, deep-link orders into Telegram/MAX bots. | JavaScript, Node.js, Telegram Bot API, MAX |
+| [**harvest**](https://github.com/ssrjkk/harvest) | QA stand for EVM testnets: wallet/scenario runner, network health, run report. Testnets only. | Python, Web3, Telegram Bot |
 | [**ezzoffer**](https://github.com/ssrjkk/ezzoffer) | AI-powered job search automation for hh.ru. Auto-applies, manages resumes, Telegram notifications. | Next.js, TypeScript, React |
 
 ---
