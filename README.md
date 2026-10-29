@@ -23,7 +23,7 @@ I build and operate web services, Telegram bots and QA tooling. Python and TypeS
 
 **shopwatch — Watchop store**
 
-Watch store with 313 models and 346 SKUs: catalog, filters, cart, checkout, deep-link orders into a Telegram or MAX bot.
+Watch store with 346 products: catalog with search, filters, cart, checkout, deep-link orders into a Telegram or MAX bot.
 
 JavaScript · Node.js · Telegram / MAX bots · GitHub Pages
 
