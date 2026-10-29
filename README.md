@@ -2,151 +2,201 @@
 
 # Sergey Sitnikov
 
-### Backend Engineer · Web3 Developer · AI Tooling
+**Backend engineer · Telegram bots · Web3 · AI tooling**
 
-[![GitHub followers](https://img.shields.io/github/followers/ssrjkk?style=social)](https://github.com/ssrjkk)
-[![GitHub stars](https://img.shields.io/github/stars/ssrjkk?affiliations=OWNER&style=social)](https://github.com/ssrjkk?tab=repositories)
-![GitHub commits](https://img.shields.io/badge/commits-1200+-brightgreen)
-![GitHub repos](https://img.shields.io/badge/repos-17-blue)
-
-**Building production-grade async services, Web3 protocols, and AI developer tools**
+[GitHub](https://github.com/ssrjkk) · [Telegram](https://t.me/ssrjkk) · [Bot catalogue](https://t.me/ssrjkk_bot) · [Projects hub](https://ssrjkk.github.io/)
 
 </div>
 
 ---
 
-## About Me
+I build and operate web services, Telegram bots and QA tooling. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every public project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
 
-Backend engineer specializing in **async Python/Go services**, **event-driven architectures**, and **Web3 protocols**. Strong QA/engineering background — I ship tested, observable, production-ready code.
+21 repositories: 17 public and 4 private; 11 live sites (this hub included), 5 Telegram bots, plus QA, load-testing and engineering tools. Source for the public projects is on [GitHub](https://github.com/ssrjkk).
 
-**Core expertise:**
-- **Backend**: FastAPI, gRPC, Kafka, PostgreSQL, Docker, Kubernetes
-- **Web3**: Solidity, fhEVM, Base chain, smart contracts, DeFi
-- **AI Tooling**: Agent Skills, LLM integration, neuro-symbolic systems
-- **Quality**: 100% test coverage, CI/CD, observability, security-first
+## Live projects
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/shopwatch/"><img src="assets/shots/shopwatch.jpg" alt="Watchop storefront: catalog, product cards and prices"></a>
 
-## GitHub Stats
+**shopwatch — Watchop store**
 
-<div align="center">
+Watch store with 313 models and 346 SKUs: catalog, filters, cart, checkout, deep-link orders into a Telegram or MAX bot.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ssrjkk&show_icons=true&theme=radical&count_private=true)
+JavaScript · Node.js · Telegram / MAX bots · GitHub Pages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ssrjkk&layout=compact&theme=radical&hide=jupyter%20notebook)
+[Site](https://ssrjkk.github.io/shopwatch/) · [Bot](https://t.me/wwwatchshop_bot) · [Source](https://github.com/ssrjkk/shopwatch)
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/bothive/"><img src="assets/shots/bothive.jpg" alt="Bothive landing page with live dashboard preview"></a>
 
-</div>
+**bothive — bot fleet control**
 
----
+Self-hosted orchestration for bots on eight platforms: BullMQ queues, sandboxed script engine, webhooks, Prometheus metrics.
 
-## Tech Stack
+TypeScript · Fastify · React · Redis · PostgreSQL
 
-<div align="center">
+[Site](https://ssrjkk.github.io/bothive/) · [Source](https://github.com/ssrjkk/bothive)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/raven/"><img src="assets/shots/raven.jpg" alt="Raven landing page: self-hosted MCP server with 66 tools"></a>
 
-**Languages:**
+**raven — self-hosted MCP server**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+66 tools over stdio and HTTP, workspace confinement and keyed auth. One process you host yourself, MIT licensed.
 
-**Backend:**
+Python · FastAPI · MCP · Rust / Go
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=grpc&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+[Site](https://ssrjkk.github.io/raven/) · [Docs](https://ssrjkk.github.io/raven/docs/) · [Source](https://github.com/ssrjkk/raven)
+</td>
+<td width="50%" valign="top">
+<a href="https://wake-7k6.pages.dev"><img src="assets/shots/wake.jpg" alt="Wake terminal: Lighter perp markets, funding and Arcus markets"></a>
 
-**Web3:**
+**wake — multi-venue trading terminal**
 
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+Lighter and Arcus perp markets, funding, portfolio, copy trading, Predict and an AI agent. React frontend, FastAPI backend, Telegram bot.
 
-**DevOps:**
+React · FastAPI · PostgreSQL · Telegram bot
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+[Site](https://wake-7k6.pages.dev) · [Bot](https://t.me/waketrade_bot) · [Source](https://github.com/ssrjkk/wake)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://tippy-egi.pages.dev"><img src="assets/shots/tippy.jpg" alt="Tippy site: community economy in USDC on Base with prediction markets"></a>
 
-</div>
+**tippy-on-base — USDC economy in Telegram**
 
----
+Tips, donation pages, LMSR prediction markets and a Mini App on Base. Zero gas for users, proof of reserves on the dashboard. The Pages site is down right now; the bot works.
 
-## Featured Projects
+Python · aiogram · Base / USDC · Mini App
 
-### AI & Developer Tools
+[Site](https://tippy-egi.pages.dev) · [Bot](https://t.me/tippy_on_base_bot) · [Source](https://github.com/ssrjkk/tippy-on-base)
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/drafter/"><img src="assets/shots/drafter.jpg" alt="Drafter: browser AI QA assistant with task modules"></a>
+
+**drafter — AI QA assistant**
+
+Browser app that turns a task description into a test plan, test cases, automation code and bug reports. Nine providers, bring your own key.
+
+TypeScript · React · 9 AI providers
+
+[Site](https://ssrjkk.github.io/drafter/) · [Source](https://github.com/ssrjkk/drafter)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/ezzoffer/"><img src="assets/shots/ezzoffer.jpg" alt="EZOffer site: job search automation for hh.ru"></a>
+
+**ezzoffer — job search automation for hh.ru**
+
+Vacancy matching, cover letters, resume management and Telegram notifications. Next.js app with a documented provider layer.
+
+TypeScript · Next.js · hh.ru API
+
+[Site](https://ssrjkk.github.io/ezzoffer/) · [Source](https://github.com/ssrjkk/ezzoffer)
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/harvest/"><img src="assets/shots/harvest.jpg" alt="Harvest site: QA stand for EVM testnets"></a>
+
+**harvest — QA stand for EVM testnets**
+
+Wallet fleet, scenarios, network health and run reports for public testnets. Testnets only, plus a Telegram bot for the operator.
+
+Python · EVM testnets · Telegram bot
+
+[Site](https://ssrjkk.github.io/harvest/) · [Source](https://github.com/ssrjkk/harvest)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/shroud/"><img src="assets/shots/shroud.jpg" alt="Shroud lab: protocol run in the browser"></a>
+
+**shroud — FHE research prototype**
+
+Training over encrypted data on an fhEVM app chain: escrow-backed tasks, STARK proof of compute, streaming payouts, threshold decryption. Research code, not audited.
+
+Solidity · TypeScript · Rust · fhEVM
+
+[Site](https://ssrjkk.github.io/shroud/) · [Source](https://github.com/ssrjkk/shroud)
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/agent-skills/"><img src="assets/shots/agent-skills.jpg" alt="Agent Skills catalog: skills for AI agents"></a>
+
+**agent-skills — skills for AI agents**
+
+100+ curated bilingual (EN/RU) skills in the Agent Skills format for Claude Code, OpenCode, Cursor and Windsurf, plus a Python SDK and CLI with CI-enforced validation.
+
+Python · Agent Skills · SDK / CLI
+
+[Site](https://ssrjkk.github.io/agent-skills/) · [Source](https://github.com/ssrjkk/agent-skills)
+</td>
+</tr>
+</table>
+
+## Telegram bots
+
+| Bot | What it does |
+|-----|--------------|
+| [@ssrjkk_bot](https://t.me/ssrjkk_bot) | Project catalogue: `/projects`, `/sites`, `/bots`, `/top`, `/search`, screenshots, RU/EN. Runs on Cloudflare Workers. |
+| [@wwwatchshop_bot](https://t.me/wwwatchshop_bot) | Watchop orders from the storefront; the MAX twin covers MAX users. |
+| [@waketrade_bot](https://t.me/waketrade_bot) | Market cards, funding and the Lighter terminal link. |
+| [@tippy_on_base_bot](https://t.me/tippy_on_base_bot) | Tips, donation pages, prediction markets and the Mini App. |
+| [@harvest_testnet_bot](https://t.me/harvest_testnet_bot) | Testnet stand status and operator commands. |
+
+## All sites
+
+- [ssrjkk.github.io](https://ssrjkk.github.io/) — services and live project hub
+- [shopwatch](https://ssrjkk.github.io/shopwatch/) — watch store
+- [bothive](https://ssrjkk.github.io/bothive/) — bot orchestration platform
+- [raven](https://ssrjkk.github.io/raven/) — MCP server site and [docs](https://ssrjkk.github.io/raven/docs/)
+- [wake](https://wake-7k6.pages.dev) — trading terminal
+- [tippy](https://tippy-egi.pages.dev) — USDC economy on Base; the Pages site is down right now, the bot works
+- [drafter](https://ssrjkk.github.io/drafter/) — AI QA assistant
+- [ezzoffer](https://ssrjkk.github.io/ezzoffer/) — hh.ru automation
+- [harvest](https://ssrjkk.github.io/harvest/) — EVM testnet QA stand
+- [shroud](https://ssrjkk.github.io/shroud/) — FHE research site
+- [agent-skills](https://ssrjkk.github.io/agent-skills/) — skills catalog
+
+## Engineering tools
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**raven**](https://github.com/ssrjkk/raven) | Self-hosted MCP server with 66+ tools over stdio/HTTP. Workspace confinement, keyed auth, multi-channel bots. | Python, FastAPI, Go, Rust, TypeScript |
-| [**agent-skills**](https://github.com/ssrjkk/agent-skills) | 100 curated bilingual (EN+RU) skills for Claude Code, OpenCode, Cursor, Windsurf. Python SDK + CLI. | Python, AI, LLM, MCP |
-| [**noema**](https://github.com/ssrjkk/noema) | Neuro-symbolic engine: generates solutions, verifies with Z3, audits thoughts, auto-fixes incidents via PRs. | Python, FastAPI, Z3, gRPC |
-| [**drafter**](https://github.com/ssrjkk/drafter) | Browser-based AI QA assistant with agentic codebase analysis. Generates test plans, cases, automation code. | TypeScript, Next.js, React |
+| [qualix](https://github.com/ssrjkk/qualix) | QA automation platform: 317 tests across six layers, 85%+ coverage, security hardening, k8s-ready. | Python, FastAPI, pytest, Playwright, Locust |
+| [qa-arsenal](https://github.com/ssrjkk/qa-arsenal) | QA monorepo for hh.ru API/UI, guap.ru Python/Go and amoCRM: API, UI, load, DB and Kafka suites. | Python, Go, Playwright, Kafka |
+| [mobius](https://github.com/ssrjkk/mobius) | Mobile test automation for Android and iOS: 947 tests, 99% coverage, screen objects, device pooling. | Python, Appium 2.x, pytest |
+| [noema](https://github.com/ssrjkk/noema) | Neuro-symbolic engineering: an LLM proposes solutions, Z3 verifies them, incidents are fixed through pull requests. | Python, Z3, gRPC |
+| [volley](https://github.com/ssrjkk/volley) | Load-testing platform: C++20 async core, YAML scenarios, OAuth2/mTLS/Vault, OTLP and Prometheus, Python SDK. | C++20, Boost.Beast, gRPC |
+| port (private) | The source of [@ssrjkk_bot](https://t.me/ssrjkk_bot): Cloudflare Worker, D1 and KV, bilingual catalogue. | JavaScript, Cloudflare Workers |
+| b2w-crypto-tg-bot (private) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. | Python, aiogram, PostgreSQL |
+| tt_bot (private) | Telegram bot for university lab management: submissions, reports and grading. | Python, aiogram |
+| twinby-swipe-bot (private) | Telegram swipe bot for content discovery, with Android/iOS/macOS automation. | Python, Telegram |
+| [ssrjkk.github.io](https://github.com/ssrjkk/ssrjkk.github.io) | The project hub and services site. | HTML, CSS |
 
-### Web3 & Blockchain
+## Stack
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**tippy-on-base**](https://github.com/ssrjkk/tippy-on-base) | Telegram TipBot: USDC tips, reactions, donate pages, prediction markets. Zero gas for users. | Python, Base, USDC, Web3 |
-| [**shroud**](https://github.com/ssrjkk/shroud) | FHE training over encrypted data on fhEVM: escrow tasks, STARK proofs, streaming payouts, threshold decryption. | Solidity, TypeScript, Rust, FHE |
-| [**wake**](https://github.com/ssrjkk/wake) | Multi-venue trading terminal: Lighter + Arcus perp markets, copy trading, Predict, AI agent. | React, Vite, Tailwind, FastAPI |
-| [**bothive**](https://github.com/ssrjkk/bothive) | Multi-bot orchestration platform for Telegram, Twitch, YouTube, Twitter. BullMQ, OpenTelemetry. | TypeScript, Node.js, React, Prisma |
-
-### QA & Testing
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**qualix**](https://github.com/ssrjkk/qualix) | QA automation platform — 317 tests, 100% coverage, security hardening, k8s-ready. | Python, FastAPI, pytest, Playwright |
-| [**qa-arsenal**](https://github.com/ssrjkk/qa-arsenal) | Unified QA monorepo: 5 target suites (hh.ru, guap.ru, amoCRM). API/UI/load/DB/Kafka tests. | Python, Go, Playwright, pytest |
-| [**mobius**](https://github.com/ssrjkk/mobius) | Mobile test automation for Android/iOS. Appium 2.x + pytest, 947 tests, 99% coverage. | Python, Appium, pytest |
-| [**volley**](https://github.com/ssrjkk/volley) | Load-testing platform for HTTP services. C++20 async core, YAML scenarios, OTLP+Prometheus. | C++, Python, Boost.Beast |
-
-### Bots & Automation
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**shopwatch**](https://github.com/ssrjkk/shopwatch) | Live watch store: 313 models, cart, filters, deep-link orders into Telegram/MAX bots. | JavaScript, Node.js, Telegram Bot API, MAX |
-| [**harvest**](https://github.com/ssrjkk/harvest) | QA stand for EVM testnets: wallet/scenario runner, network health, run report. Testnets only. | Python, Web3, Telegram Bot |
-| [**ezzoffer**](https://github.com/ssrjkk/ezzoffer) | AI-powered job search automation for hh.ru. Auto-applies, manages resumes, Telegram notifications. | Next.js, TypeScript, React |
-
----
-
-## Contribution Activity
-
-<div align="center">
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ssrjkk&theme=radical&hide_border=true&area=true)
-
-</div>
-
----
+Python · TypeScript · Go · Rust · C++ · Solidity · FastAPI · aiogram · React · Node.js · PostgreSQL · Redis · Kafka · Docker · Kubernetes · GitHub Actions · Playwright · pytest · Prometheus
 
 ## Contact
 
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-ssrjkk-181717?style=for-the-badge&logo=github)](https://github.com/ssrjkk)
-[![Email](https://img.shields.io/badge/Email-ray013lefe@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ray013lefe@gmail.com)
-
-</div>
+- GitHub: [github.com/ssrjkk](https://github.com/ssrjkk)
+- Telegram: [@ssrjkk](https://t.me/ssrjkk)
+- Channels: [@b2wmain](https://t.me/b2wmain), [@b2wshitpost](https://t.me/b2wshitpost)
+- Email: [ray013lefe@gmail.com](mailto:ray013lefe@gmail.com)
 
 ---
 
-<div align="center">
+## Русский
 
-### Russian / Русский
+**Сергей Ситников** — backend-инженер: Telegram-боты, интернет-магазины с ботами, Web3 и QA-платформы. Пишу на Python и TypeScript, покрываю тестами, деплою в Docker и показываю живые интерфейсы, а не макеты.
 
-**Сергей Ситников** — Backend Engineer. Async Python/Go сервисы, gRPC, событийные системы, Web3 (Base, fhEVM, смарт-контракты) и AI-инструменты для разработчиков. Пишу протестированный, наблюдаемый, production-grade код.
+- Каталог проектов в Telegram: [@ssrjkk_bot](https://t.me/ssrjkk_bot)
+- Все проекты и ссылки: [ssrjkk.github.io](https://ssrjkk.github.io/)
+- Связь: [@ssrjkk](https://t.me/ssrjkk)
 
-**Стек:** Python · Go · TypeScript · Solidity · gRPC · FastAPI · Kafka · PostgreSQL · Docker · Kubernetes · CI/CD
-
-</div>
-
----
-
-<div align="center">
-<sub>14 public repositories · 1200+ commits · Production-grade code</sub>
-</div>
+21 репозиторий: 17 публичных и 4 приватных, 11 живых сайтов вместе с этим хабом, 5 Telegram-ботов, остальное — QA-платформы, нагрузочное тестирование и инженерные инструменты.
