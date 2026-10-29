@@ -12,7 +12,7 @@
 
 I build and operate web services, Telegram bots and QA tooling. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every public project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
 
-21 repositories: 17 public and 4 private; 11 live sites (this hub included), 5 Telegram bots, plus QA, load-testing and engineering tools. Source for the public projects is on [GitHub](https://github.com/ssrjkk).
+21 repositories, all public; 11 live sites (this hub included), 5 Telegram bots, plus QA, load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
 
 ## Live projects
 
@@ -172,10 +172,10 @@ Python · Agent Skills · SDK / CLI
 | [mobius](https://github.com/ssrjkk/mobius) | Mobile test automation for Android and iOS: 947 tests, 99% coverage, screen objects, device pooling. | Python, Appium 2.x, pytest |
 | [noema](https://github.com/ssrjkk/noema) | Neuro-symbolic engineering: an LLM proposes solutions, Z3 verifies them, incidents are fixed through pull requests. | Python, Z3, gRPC |
 | [volley](https://github.com/ssrjkk/volley) | Load-testing platform: C++20 async core, YAML scenarios, OAuth2/mTLS/Vault, OTLP and Prometheus, Python SDK. | C++20, Boost.Beast, gRPC |
-| port (private) | The source of [@ssrjkk_bot](https://t.me/ssrjkk_bot): Cloudflare Worker, D1 and KV, bilingual catalogue. | JavaScript, Cloudflare Workers |
-| b2w-crypto-tg-bot (private) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. | Python, aiogram, PostgreSQL |
-| tt_bot (private) | Telegram bot for university lab management: submissions, reports and grading. | Python, aiogram |
-| twinby-swipe-bot (private) | Telegram swipe bot for content discovery, with Android/iOS/macOS automation. | Python, Telegram |
+| [port](https://github.com/ssrjkk/port) | The source of [@ssrjkk_bot](https://t.me/ssrjkk_bot): Cloudflare Worker, D1 and KV, bilingual catalogue. | JavaScript, Cloudflare Workers |
+| [b2w-crypto-tg-bot](https://github.com/ssrjkk/b2w-crypto-tg-bot) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. | Python, aiogram, PostgreSQL |
+| [tt_bot](https://github.com/ssrjkk/tt_bot) | Telegram bot for university lab management: submissions, reports and grading. | Python, aiogram |
+| [twinby-swipe-bot](https://github.com/ssrjkk/twinby-swipe-bot) | Telegram swipe bot for content discovery, with Android/iOS/macOS automation. | Python, Telegram |
 | [ssrjkk.github.io](https://github.com/ssrjkk/ssrjkk.github.io) | The project hub and services site. | HTML, CSS |
 
 ## Stack
@@ -199,4 +199,4 @@ Python · TypeScript · Go · Rust · C++ · Solidity · FastAPI · aiogram · R
 - Все проекты и ссылки: [ssrjkk.github.io](https://ssrjkk.github.io/)
 - Связь: [@ssrjkk](https://t.me/ssrjkk)
 
-21 репозиторий: 17 публичных и 4 приватных, 11 живых сайтов вместе с этим хабом, 5 Telegram-ботов, остальное — QA-платформы, нагрузочное тестирование и инженерные инструменты.
+21 репозиторий, все открыты: 11 живых сайтов вместе с этим хабом, 5 Telegram-ботов, остальное — QA-платформы, нагрузочное тестирование и инженерные инструменты.
