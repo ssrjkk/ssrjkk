@@ -10,20 +10,20 @@
 
 ---
 
-I build and operate web services, Telegram bots and QA tooling. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every public project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
+I build and operate web services, Telegram bots and QA tooling. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
 
-21 repositories, all public; 11 live sites (this hub included), 5 Telegram bots, plus QA, load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
+21 repositories; 10 live sites (this hub included), 5 Telegram bots, plus QA, load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
 
 ## Live projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://ssrjkk.github.io/shopwatch/"><img src="assets/shots/shopwatch.jpg" alt="Watchop storefront: catalog, product cards and prices"></a>
+<a href="https://ssrjkk.github.io/shopwatch/"><img src="assets/shots/shopwatch.jpg" alt="WATCHOP storefront: Garmin and smart watches, 347 products"></a>
 
 **shopwatch — Watchop store**
 
-Watch store with 346 products: catalog with search, filters, cart, checkout, deep-link orders into a Telegram or MAX bot.
+Watch store with 347 products: catalog with search, filters, cart, checkout, deep-link orders into a Telegram or MAX bot.
 
 JavaScript · Node.js · Telegram / MAX bots · GitHub Pages
 
@@ -58,7 +58,7 @@ Python · FastAPI · MCP · Rust / Go
 
 **wake — multi-venue trading terminal**
 
-Lighter and Arcus perp markets, funding, portfolio, copy trading, Predict and an AI agent. React frontend, FastAPI backend, Telegram bot.
+Lighter and Arcus perp markets, funding, portfolio and risk tools; copy trading, Predict and an AI agent are in the codebase. React frontend, FastAPI backend, Telegram bot.
 
 React · FastAPI · PostgreSQL · Telegram bot
 
@@ -67,7 +67,7 @@ React · FastAPI · PostgreSQL · Telegram bot
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://tippy-egi.pages.dev"><img src="assets/shots/tippy.jpg" alt="Tippy site: community economy in USDC on Base with prediction markets"></a>
+<a href="https://t.me/tippy_on_base_bot"><img src="assets/shots/tippy.jpg" alt="Tippy site: community economy in USDC on Base with prediction markets"></a>
 
 **tippy-on-base — USDC economy in Telegram**
 
@@ -75,7 +75,7 @@ Tips, donation pages, LMSR prediction markets and a Mini App on Base. Zero gas f
 
 Python · aiogram · Base / USDC · Mini App
 
-[Site](https://tippy-egi.pages.dev) · [Bot](https://t.me/tippy_on_base_bot) · [Source](https://github.com/ssrjkk/tippy-on-base)
+[Bot](https://t.me/tippy_on_base_bot) · [Source](https://github.com/ssrjkk/tippy-on-base)
 </td>
 <td width="50%" valign="top">
 <a href="https://ssrjkk.github.io/drafter/"><img src="assets/shots/drafter.jpg" alt="Drafter: browser AI QA assistant with task modules"></a>
@@ -119,7 +119,7 @@ Python · EVM testnets · Telegram bot
 
 **shroud — FHE research prototype**
 
-Training over encrypted data on an fhEVM app chain: escrow-backed tasks, STARK proof of compute, streaming payouts, threshold decryption. Research code, not audited.
+Training over encrypted data on an fhEVM app chain: escrow-backed tasks, a mock-verified STARK proof-of-compute path, streaming payouts and threshold decryption. Research code, not audited.
 
 Solidity · TypeScript · Rust · fhEVM
 
@@ -130,7 +130,7 @@ Solidity · TypeScript · Rust · fhEVM
 
 **agent-skills — skills for AI agents**
 
-100+ curated bilingual (EN/RU) skills in the Agent Skills format for Claude Code, OpenCode, Cursor and Windsurf, plus a Python SDK and CLI with CI-enforced validation.
+103 curated bilingual (EN/RU) skills in the Agent Skills format for Claude Code, OpenCode, Cursor and Windsurf, plus a Python SDK and CLI with CI-enforced validation.
 
 Python · Agent Skills · SDK / CLI
 
@@ -149,14 +149,16 @@ Python · Agent Skills · SDK / CLI
 | [@tippy_on_base_bot](https://t.me/tippy_on_base_bot) | Tips, donation pages, prediction markets and the Mini App. |
 | [@harvest_testnet_bot](https://t.me/harvest_testnet_bot) | Testnet stand status and operator commands. |
 
-## All sites
+## Sites
+
+Ten live sites, plus [tippy's Telegram bot](https://t.me/tippy_on_base_bot) — its Pages site is down right now.
 
 - [ssrjkk.github.io](https://ssrjkk.github.io/) — services and live project hub
 - [shopwatch](https://ssrjkk.github.io/shopwatch/) — watch store
 - [bothive](https://ssrjkk.github.io/bothive/) — bot orchestration platform
 - [raven](https://ssrjkk.github.io/raven/) — MCP server site and [docs](https://ssrjkk.github.io/raven/docs/)
 - [wake](https://wake-7k6.pages.dev) — trading terminal
-- [tippy](https://tippy-egi.pages.dev) — USDC economy on Base; the Pages site is down right now, the bot works
+- [tippy](https://t.me/tippy_on_base_bot) — USDC economy on Base; the bot works, the Pages site is down
 - [drafter](https://ssrjkk.github.io/drafter/) — AI QA assistant
 - [ezzoffer](https://ssrjkk.github.io/ezzoffer/) — hh.ru automation
 - [harvest](https://ssrjkk.github.io/harvest/) — EVM testnet QA stand
@@ -199,4 +201,4 @@ Python · TypeScript · Go · Rust · C++ · Solidity · FastAPI · aiogram · R
 - Все проекты и ссылки: [ssrjkk.github.io](https://ssrjkk.github.io/)
 - Связь: [@ssrjkk](https://t.me/ssrjkk)
 
-21 репозиторий, все открыты: 11 живых сайтов вместе с этим хабом, 5 Telegram-ботов, остальное — QA-платформы, нагрузочное тестирование и инженерные инструменты.
+21 репозиторий: 10 живых сайтов вместе с этим хабом, 5 Telegram-ботов, остальное — QA-платформы, нагрузочное тестирование и инженерные инструменты.
