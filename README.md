@@ -2,7 +2,7 @@
 
 # Sergey Sitnikov
 
-**Backend engineer · Telegram bots · Web3 · AI tooling**
+**Full-stack engineer · Telegram bots · Web3 · AI tooling**
 
 [GitHub](https://github.com/ssrjkk) · [Telegram](https://t.me/ssrjkk) · [Bot catalogue](https://t.me/ssrjkk_bot) · [Projects hub](https://ssrjkk.github.io/)
 
@@ -10,9 +10,9 @@
 
 ---
 
-I build and operate web services, Telegram bots and QA tooling. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
+I build and operate web services, Telegram bots and internal tools. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
 
-21 repositories; 10 live sites (this hub included), 5 Telegram bots, plus QA, load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
+10 live sites (this hub included), 5 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
 
 ## Live projects
 
@@ -195,10 +195,10 @@ Python · TypeScript · Go · Rust · C++ · Solidity · FastAPI · aiogram · R
 
 ## Русский
 
-**Сергей Ситников** — backend-инженер: Telegram-боты, интернет-магазины с ботами, Web3 и QA-платформы. Пишу на Python и TypeScript, покрываю тестами, деплою в Docker и показываю живые интерфейсы, а не макеты.
+**Сергей Ситников** — фулстек-инженер: Telegram-боты, интернет-магазины с ботами, Web3 и AI-инструменты. Пишу на Python и TypeScript, покрываю тестами, деплою в Docker и показываю живые интерфейсы, а не макеты.
 
 - Каталог проектов в Telegram: [@ssrjkk_bot](https://t.me/ssrjkk_bot)
 - Все проекты и ссылки: [ssrjkk.github.io](https://ssrjkk.github.io/)
 - Связь: [@ssrjkk](https://t.me/ssrjkk)
 
-21 репозиторий: 10 живых сайтов вместе с этим хабом, 5 Telegram-ботов, остальное — QA-платформы, нагрузочное тестирование и инженерные инструменты.
+10 живых сайтов вместе с этим хабом, 5 Telegram-ботов, нагрузочное тестирование и инженерные инструменты.
