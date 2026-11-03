@@ -23,7 +23,7 @@ I build and operate web services, Telegram bots and internal tools. Python and T
 
 **shopwatch — Watchop store**
 
-Watch store with 347 products: catalog with search, filters, cart, checkout, deep-link orders into a Telegram or MAX bot.
+Watch store with 347 products: catalog with search, filters, cart, checkout, deep-link orders into a Telegram or MAX bot. The catalog exports to WooCommerce, OpenCart and PrestaShop.
 
 JavaScript · Node.js · Telegram / MAX bots · GitHub Pages
 
