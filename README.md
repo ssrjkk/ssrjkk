@@ -19,11 +19,11 @@ I build and operate web services, Telegram bots and internal tools. Python and T
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://ssrjkk.github.io/shopwatch/"><img src="assets/shots/shopwatch.jpg" alt="WATCHOP storefront: Garmin and smart watches, 347 products"></a>
+<a href="https://ssrjkk.github.io/shopwatch/"><img src="assets/shots/shopwatch.jpg" alt="Vektor watch store: Garmin and smart watches, 391 products"></a>
 
-**shopwatch — Watchop store**
+**shopwatch — Vektor watch store**
 
-Watch store with 347 products: catalog with search, filters, cart, checkout, deep-link orders into a Telegram or MAX bot. The catalog exports to WooCommerce, OpenCart and PrestaShop.
+Watch store with 391 products: catalog with search, filters, cart, checkout, deep-link orders into a Telegram or MAX bot. The catalog exports to WooCommerce, OpenCart and PrestaShop.
 
 JavaScript · Node.js · Telegram / MAX bots · GitHub Pages
 
@@ -144,7 +144,7 @@ Python · Agent Skills · SDK / CLI
 | Bot | What it does |
 |-----|--------------|
 | [@ssrjkk_bot](https://t.me/ssrjkk_bot) | Project catalogue: `/projects`, `/sites`, `/bots`, `/top`, `/search`, screenshots, RU/EN. Runs on Cloudflare Workers. |
-| [@wwwatchshop_bot](https://t.me/wwwatchshop_bot) | Watchop orders from the storefront; the MAX twin covers MAX users. |
+| [@wwwatchshop_bot](https://t.me/wwwatchshop_bot) | Vektor store orders from the storefront; the MAX twin covers MAX users. |
 | [@waketrade_bot](https://t.me/waketrade_bot) | Market cards, funding and the Lighter terminal link. |
 | [@tippy_on_base_bot](https://t.me/tippy_on_base_bot) | Tips, donation pages, prediction markets and the Mini App. |
 | [@harvest_testnet_bot](https://t.me/harvest_testnet_bot) | Testnet stand status and operator commands. |
