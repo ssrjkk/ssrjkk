@@ -12,16 +12,16 @@
 
 I build and operate web services, Telegram bots and internal tools. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
 
-11 live sites (this hub included), 5 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
+10 live sites (this hub included), 5 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
 
 ## Live projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://ssrjkk.github.io/shopwatch/"><img src="assets/shots/shopwatch.jpg" alt="OneWatch store: Garmin and smart watches, 391 products"></a>
+<a href="https://ssrjkk.github.io/shopwatch/"><img src="assets/shots/shopwatch.jpg" alt="WATIX store: Garmin and smart watches, 391 products"></a>
 
-**shopwatch — OneWatch store**
+**shopwatch — WATIX store**
 
 Watch store with 391 products: catalog with search, filters, cart, checkout, deep-link orders into a Telegram or MAX bot. The catalog exports to WooCommerce, OpenCart and PrestaShop.
 
@@ -71,11 +71,11 @@ React · FastAPI · PostgreSQL · Telegram bot
 
 **tippy-on-base — USDC economy in Telegram**
 
-Tips, donation pages, LMSR prediction markets and a Mini App on Base. Zero gas for users, proof of reserves on the dashboard. The site and the bot are both live.
+Tips, donation pages, LMSR prediction markets and a Mini App on Base. Zero gas for users, proof of reserves on the dashboard. The bot works; the Pages site is down again (backend API alive).
 
 Python · aiogram · Base / USDC · Mini App
 
-[Site](https://tippy-egi.pages.dev/) · [Bot](https://t.me/tippy_on_base_bot) · [Source](https://github.com/ssrjkk/tippy-on-base)
+[Bot](https://t.me/tippy_on_base_bot) · [Source](https://github.com/ssrjkk/tippy-on-base)
 </td>
 <td width="50%" valign="top">
 <a href="https://ssrjkk.github.io/drafter/"><img src="assets/shots/drafter.jpg" alt="Drafter: browser AI QA assistant with task modules"></a>
@@ -130,7 +130,7 @@ Solidity · TypeScript · Rust · fhEVM
 
 **agent-skills — skills for AI agents**
 
-103 curated bilingual (EN/RU) skills in the Agent Skills format for Claude Code, OpenCode, Cursor and Windsurf, plus a Python SDK and CLI with CI-enforced validation.
+120 curated bilingual (EN/RU) skills in the Agent Skills format for Claude Code, OpenCode, Cursor and Windsurf, plus a Python SDK and CLI with CI-enforced validation.
 
 Python · Agent Skills · SDK / CLI
 
@@ -144,21 +144,21 @@ Python · Agent Skills · SDK / CLI
 | Bot | What it does |
 |-----|--------------|
 | [@ssrjkk_bot](https://t.me/ssrjkk_bot) | Project catalogue: `/projects`, `/sites`, `/bots`, `/top`, `/search`, screenshots, RU/EN. Runs on Cloudflare Workers. |
-| [@wwwatchshop_bot](https://t.me/wwwatchshop_bot) | OneWatch store orders from the storefront; the MAX twin covers MAX users. |
+| [@wwwatchshop_bot](https://t.me/wwwatchshop_bot) | WATIX store orders from the storefront; the MAX twin covers MAX users. |
 | [@waketrade_bot](https://t.me/waketrade_bot) | Market cards, funding and the Lighter terminal link. |
 | [@tippy_on_base_bot](https://t.me/tippy_on_base_bot) | Tips, donation pages, prediction markets and the Mini App. |
 | [@harvest_testnet_bot](https://t.me/harvest_testnet_bot) | Testnet stand status and operator commands. |
 
 ## Sites
 
-Eleven live sites, including tippy's [site](https://tippy-egi.pages.dev/) and [Telegram bot](https://t.me/tippy_on_base_bot).
+Ten live sites, plus [tippy's Telegram bot](https://t.me/tippy_on_base_bot) — its Pages site is down again (API alive).
 
 - [ssrjkk.github.io](https://ssrjkk.github.io/) — services and live project hub
 - [shopwatch](https://ssrjkk.github.io/shopwatch/) — watch store
 - [bothive](https://ssrjkk.github.io/bothive/) — bot orchestration platform
 - [raven](https://ssrjkk.github.io/raven/) — MCP server site and [docs](https://ssrjkk.github.io/raven/docs/)
 - [wake](https://wake-7k6.pages.dev) — trading terminal
-- [tippy](https://tippy-egi.pages.dev/) — USDC economy on Base ([bot](https://t.me/tippy_on_base_bot))
+- [tippy](https://t.me/tippy_on_base_bot) — USDC economy on Base; the bot works, the Pages site is down
 - [drafter](https://ssrjkk.github.io/drafter/) — AI QA assistant
 - [ezzoffer](https://ssrjkk.github.io/ezzoffer/) — hh.ru automation
 - [harvest](https://ssrjkk.github.io/harvest/) — EVM testnet QA stand
@@ -201,4 +201,4 @@ Python · TypeScript · Go · Rust · C++ · Solidity · FastAPI · aiogram · R
 - Все проекты и ссылки: [ssrjkk.github.io](https://ssrjkk.github.io/)
 - Связь: [@ssrjkk](https://t.me/ssrjkk)
 
-11 живых сайтов вместе с этим хабом, 5 Telegram-ботов, нагрузочное тестирование и инженерные инструменты.
+10 живых сайтов вместе с этим хабом, 5 Telegram-ботов, нагрузочное тестирование и инженерные инструменты.
