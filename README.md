@@ -130,11 +130,11 @@ Solidity · TypeScript · Rust · fhEVM
 
 **agent-skills — skills for AI agents**
 
-103 curated bilingual (EN/RU) skills in the Agent Skills format for Claude Code, OpenCode, Cursor and Windsurf, plus a Python SDK and CLI with CI-enforced validation.
+120 bilingual (EN/RU) skills, 20 IT roadmaps and 27 guides. Public registry, CLI `search --remote`, Python SDK and a validated CI site build.
 
 Python · Agent Skills · SDK / CLI
 
-[Site](https://ssrjkk.github.io/agent-skills/) · [Source](https://github.com/ssrjkk/agent-skills)
+[Site](https://ssrjkk.github.io/agent-skills/) · [Registry](https://ssrjkk.github.io/agent-skills/skills_catalog.json) · [Roadmaps](https://ssrjkk.github.io/agent-skills/roadmaps.html) · [Guides](https://ssrjkk.github.io/agent-skills/guides.html) · [Source](https://github.com/ssrjkk/agent-skills)
 </td>
 </tr>
 </table>
