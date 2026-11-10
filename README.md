@@ -130,11 +130,11 @@ Solidity · TypeScript · Rust · fhEVM
 
 **agent-skills — skills for AI agents**
 
-120 curated bilingual (EN/RU) skills in the Agent Skills format for Claude Code, OpenCode, Cursor and Windsurf, plus a Python SDK and CLI with CI-enforced validation.
+120 bilingual (EN/RU) skills, 20 IT roadmaps and 25 guides. Public registry, CLI `search --remote`, Python SDK and a validated CI site build.
 
 Python · Agent Skills · SDK / CLI
 
-[Site](https://ssrjkk.github.io/agent-skills/) · [Source](https://github.com/ssrjkk/agent-skills)
+[Site](https://ssrjkk.github.io/agent-skills/) · [Registry](https://ssrjkk.github.io/agent-skills/skills_catalog.json) · [Roadmaps](https://ssrjkk.github.io/agent-skills/roadmaps.html) · [Guides](https://ssrjkk.github.io/agent-skills/guides.html) · [Source](https://github.com/ssrjkk/agent-skills)
 </td>
 </tr>
 </table>
@@ -174,11 +174,10 @@ Ten live sites, plus [tippy's Telegram bot](https://t.me/tippy_on_base_bot) — 
 | [mobius](https://github.com/ssrjkk/mobius) | Mobile test automation for Android and iOS: 947 tests, 99% coverage, screen objects, device pooling. | Python, Appium 2.x, pytest |
 | [noema](https://github.com/ssrjkk/noema) | Neuro-symbolic engineering: an LLM proposes solutions, Z3 verifies them, incidents are fixed through pull requests. | Python, Z3, gRPC |
 | [volley](https://github.com/ssrjkk/volley) | Load-testing platform: C++20 async core, YAML scenarios, OAuth2/mTLS/Vault, OTLP and Prometheus, Python SDK. | C++20, Boost.Beast, gRPC |
-| [port](https://github.com/ssrjkk/port) | The source of [@ssrjkk_bot](https://t.me/ssrjkk_bot): Cloudflare Worker, D1 and KV, bilingual catalogue. | JavaScript, Cloudflare Workers |
 | [b2w-crypto-tg-bot](https://github.com/ssrjkk/b2w-crypto-tg-bot) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. | Python, aiogram, PostgreSQL |
 | [tt_bot](https://github.com/ssrjkk/tt_bot) | Telegram bot for university lab management: submissions, reports and grading. | Python, aiogram |
 | [twinby-swipe-bot](https://github.com/ssrjkk/twinby-swipe-bot) | Telegram swipe bot for content discovery, with Android/iOS/macOS automation. | Python, Telegram |
-| [ssrjkk.github.io](https://github.com/ssrjkk/ssrjkk.github.io) | The project hub and services site. | HTML, CSS |
+| [ssrjkk.github.io](https://github.com/ssrjkk/ssrjkk.github.io) | The project hub and services site; also home to the [@ssrjkk_bot](https://t.me/ssrjkk_bot) catalogue worker in [bot/](https://github.com/ssrjkk/ssrjkk.github.io/tree/main/bot). | HTML, CSS, JavaScript, Cloudflare Workers |
 
 ## Stack
 
