@@ -71,7 +71,7 @@ React · FastAPI · PostgreSQL · Telegram bot
 
 **tippy-on-base — USDC economy in Telegram**
 
-Tips, donation pages, LMSR prediction markets and a Mini App on Base. Zero gas for users, proof of reserves on the dashboard. The bot works; the Pages site is down again (backend API alive).
+Tips, donation pages, LMSR prediction markets and a Mini App on Base. Zero gas for users, proof of reserves on the dashboard. The bot works; the Pages site and API are down.
 
 Python · aiogram · Base / USDC · Mini App
 
@@ -151,14 +151,14 @@ Python · Agent Skills · SDK / CLI
 
 ## Sites
 
-Ten live sites, plus [tippy's Telegram bot](https://t.me/tippy_on_base_bot) — its Pages site is down again (API alive).
+Ten live sites, plus [tippy's Telegram bot](https://t.me/tippy_on_base_bot) — its Pages site and API are down.
 
 - [ssrjkk.github.io](https://ssrjkk.github.io/) — services and live project hub
 - [shopwatch](https://ssrjkk.github.io/shopwatch/) — watch store
 - [bothive](https://ssrjkk.github.io/bothive/) — bot orchestration platform
 - [raven](https://ssrjkk.github.io/raven/) — MCP server site and [docs](https://ssrjkk.github.io/raven/docs/)
 - [wake](https://wake-7k6.pages.dev) — trading terminal
-- [tippy](https://t.me/tippy_on_base_bot) — USDC economy on Base; the bot works, the Pages site is down
+- [tippy](https://t.me/tippy_on_base_bot) — USDC economy on Base; the bot works, the Pages site and API are down
 - [drafter](https://ssrjkk.github.io/drafter/) — AI QA assistant
 - [ezzoffer](https://ssrjkk.github.io/ezzoffer/) — hh.ru automation
 - [harvest](https://ssrjkk.github.io/harvest/) — EVM testnet QA stand
