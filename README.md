@@ -67,7 +67,7 @@ React · FastAPI · PostgreSQL · Telegram bot
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://t.me/tippy_on_base_bot"><img src="assets/shots/tippy.jpg" alt="Tippy Telegram bot: community economy in USDC on Base with prediction markets"></a>
+<a href="https://t.me/tippy_on_base_bot"><img src="assets/shots/tippy-on-base.jpg" alt="Tippy Telegram bot: community economy in USDC on Base with prediction markets"></a>
 
 **tippy-on-base — USDC economy in Telegram**
 
