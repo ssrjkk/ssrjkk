@@ -12,7 +12,7 @@
 
 I build and operate web services, Telegram bots and internal tools. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
 
-10 live sites (this hub included), 5 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
+18 live sites (this hub included), 5 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
 
 ## Live projects
 
@@ -151,7 +151,7 @@ Python · Agent Skills · SDK / CLI
 
 ## Sites
 
-Ten live sites, plus [tippy's Telegram bot](https://t.me/tippy_on_base_bot) — its Pages site and API are down.
+Eighteen live sites, plus [tippy's Telegram bot](https://t.me/tippy_on_base_bot) — its Pages site and API are down.
 
 - [ssrjkk.github.io](https://ssrjkk.github.io/) — services and live project hub
 - [shopwatch](https://ssrjkk.github.io/shopwatch/) — watch store
@@ -169,14 +169,14 @@ Ten live sites, plus [tippy's Telegram bot](https://t.me/tippy_on_base_bot) — 
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [qualix](https://github.com/ssrjkk/qualix) | QA automation platform: 317 tests across six layers, 85%+ coverage, security hardening, k8s-ready. | Python, FastAPI, pytest, Playwright, Locust |
-| [qa-arsenal](https://github.com/ssrjkk/qa-arsenal) | QA monorepo for hh.ru API/UI, guap.ru Python/Go and amoCRM: API, UI, load, DB and Kafka suites. | Python, Go, Playwright, Kafka |
-| [mobius](https://github.com/ssrjkk/mobius) | Mobile test automation for Android and iOS: 947 tests, 99% coverage, screen objects, device pooling. | Python, Appium 2.x, pytest |
-| [noema](https://github.com/ssrjkk/noema) | Neuro-symbolic engineering: an LLM proposes solutions, Z3 verifies them, incidents are fixed through pull requests. | Python, Z3, gRPC |
-| [volley](https://github.com/ssrjkk/volley) | Load-testing platform: C++20 async core, YAML scenarios, OAuth2/mTLS/Vault, OTLP and Prometheus, Python SDK. | C++20, Boost.Beast, gRPC |
-| [b2w-crypto-tg-bot](https://github.com/ssrjkk/b2w-crypto-tg-bot) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. | Python, aiogram, PostgreSQL |
-| [tt_bot](https://github.com/ssrjkk/tt_bot) | Telegram bot for university lab management: submissions, reports and grading. | Python, aiogram |
-| [twinby-swipe-bot](https://github.com/ssrjkk/twinby-swipe-bot) | Telegram swipe bot for content discovery, with Android/iOS/macOS automation. | Python, Telegram |
+| [qualix](https://ssrjkk.github.io/qualix/) | QA automation platform: 317 tests across six layers, 85%+ coverage, security hardening, k8s-ready. [Source](https://github.com/ssrjkk/qualix) | Python, FastAPI, pytest, Playwright, Locust |
+| [qa-arsenal](https://ssrjkk.github.io/qa-arsenal/) | QA monorepo for hh.ru API/UI, guap.ru Python/Go and amoCRM: API, UI, load, DB and Kafka suites. [Source](https://github.com/ssrjkk/qa-arsenal) | Python, Go, Playwright, Kafka |
+| [mobius](https://ssrjkk.github.io/mobius/) | Mobile test automation for Android and iOS: 947 tests, 99% coverage, screen objects, device pooling. [Source](https://github.com/ssrjkk/mobius) | Python, Appium 2.x, pytest |
+| [noema](https://ssrjkk.github.io/noema/) | Neuro-symbolic engineering: an LLM proposes solutions, Z3 verifies them, incidents are fixed through pull requests. [Source](https://github.com/ssrjkk/noema) | Python, Z3, gRPC |
+| [volley](https://ssrjkk.github.io/volley/) | Load-testing platform: C++20 async core, YAML scenarios, OAuth2/mTLS/Vault, OTLP and Prometheus, Python SDK. [Source](https://github.com/ssrjkk/volley) | C++20, Boost.Beast, gRPC |
+| [b2w-crypto-tg-bot](https://ssrjkk.github.io/b2w-crypto-tg-bot/) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. [Source](https://github.com/ssrjkk/b2w-crypto-tg-bot) | Python, aiogram, PostgreSQL |
+| [tt_bot](https://ssrjkk.github.io/tt_bot/) | Telegram bot for university lab management: submissions, reports and grading. [Source](https://github.com/ssrjkk/tt_bot) | Python, aiogram |
+| [twinby-swipe-bot](https://ssrjkk.github.io/twinby-swipe-bot/) | Telegram swipe bot for content discovery, with Android/iOS/macOS automation. [Source](https://github.com/ssrjkk/twinby-swipe-bot) | Python, Telegram |
 | [ssrjkk.github.io](https://github.com/ssrjkk/ssrjkk.github.io) | The project hub and services site; also home to the [@ssrjkk_bot](https://t.me/ssrjkk_bot) catalogue worker in [bot/](https://github.com/ssrjkk/ssrjkk.github.io/tree/main/bot). | HTML, CSS, JavaScript, Cloudflare Workers |
 
 ## Stack
@@ -200,4 +200,4 @@ Python · TypeScript · Go · Rust · C++ · Solidity · FastAPI · aiogram · R
 - Все проекты и ссылки: [ssrjkk.github.io](https://ssrjkk.github.io/)
 - Связь: [@ssrjkk](https://t.me/ssrjkk)
 
-10 живых сайтов вместе с этим хабом, 5 Telegram-ботов, нагрузочное тестирование и инженерные инструменты.
+18 живых сайтов вместе с этим хабом, 5 Telegram-ботов, нагрузочное тестирование и инженерные инструменты.
