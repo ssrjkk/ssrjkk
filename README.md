@@ -208,7 +208,7 @@ Python · TypeScript · Go · Rust · C++ · Solidity · FastAPI · aiogram · R
 
 - GitHub: [github.com/ssrjkk](https://github.com/ssrjkk)
 - Telegram: [@ssrjkk](https://t.me/ssrjkk)
-- Channels: [@b2wmain](https://t.me/b2wmain), [@b2wshitpost](https://t.me/b2wshitpost)
+- Channels: [@b2wmain](https://t.me/b2wmain)
 - Email: [ray013lefe@gmail.com](mailto:ray013lefe@gmail.com)
 
 ---
