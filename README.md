@@ -12,7 +12,7 @@
 
 I build and operate web services, Telegram bots and internal tools. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
 
-20 live sites (this hub included), 4 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
+21 live sites (this hub included), 4 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
 
 ## Live projects
 
@@ -150,6 +150,19 @@ TypeScript · Next.js · tRPC · Prisma
 [Site](https://ssrjkk.github.io/verso/) · [Source](https://github.com/ssrjkk/verso)
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+<a href="https://ssrjkk.github.io/fruktovy/"><img src="assets/shots/fruktovy.jpg" alt="Фруктовый storefront: searchable catalogue, cart, basket builder and gallery"></a>
+
+**fruktovy — shop storefront with ordering**
+
+Catalog site for a Saint Petersburg fruit shop: search and filters, cart with reorder, basket builder, seasonal calendar, gallery lightbox and WhatsApp checkout. Two themes share one markup; vanilla HTML/CSS/JS, assets self-hosted, zero trackers. CI runs a mutation-proved quality gate.
+
+HTML · CSS · JavaScript · Python CI
+
+[Site](https://ssrjkk.github.io/fruktovy/) · [Source](https://github.com/ssrjkk/fruktovy)
+</td>
+</tr>
 </table>
 
 ## Telegram bots
@@ -163,7 +176,7 @@ TypeScript · Next.js · tRPC · Prisma
 
 ## Sites
 
-Twenty live sites, this hub included. Every address below is checked with a real HTTP request, and the list is the same one the [hub](https://ssrjkk.github.io/) and [@ssrjkk_bot](https://t.me/ssrjkk_bot) publish.
+Twenty-one live sites, this hub included. Every address below is checked with a real HTTP request, and the list is the same one the [hub](https://ssrjkk.github.io/) and [@ssrjkk_bot](https://t.me/ssrjkk_bot) publish.
 
 - [ssrjkk.github.io](https://ssrjkk.github.io/) — services and live project hub
 - [bothive](https://ssrjkk.github.io/bothive/) — bot orchestration platform
@@ -181,6 +194,7 @@ Twenty live sites, this hub included. Every address below is checked with a real
 - [volley](https://ssrjkk.github.io/volley/) — load-testing platform
 - [corvid_crm](https://ssrjkk.github.io/corvid_crm/) — freelance CRM
 - [verso](https://ssrjkk.github.io/verso/) — headless CMS
+- [fruktovy](https://ssrjkk.github.io/fruktovy/) — fruit shop storefront
 - [tippy-on-base](https://ssrjkk.github.io/tippy-on-base/) — USDC economy landing; the [bot](https://t.me/tippy_on_base_bot) works, the Cloudflare app and API are down
 - [b2w-crypto-tg-bot](https://ssrjkk.github.io/b2w-crypto-tg-bot/) — crypto portfolio platform
 - [tt_bot](https://ssrjkk.github.io/tt_bot/) — tasks and monitoring
