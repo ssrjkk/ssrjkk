@@ -206,7 +206,7 @@ Twenty-one live sites, this hub included. Every address below is checked with a 
 |---------|-------------|-------|
 | [qualix](https://ssrjkk.github.io/qualix/) | QA automation platform: 317 tests across six layers, 85%+ coverage, security hardening, k8s-ready. [Source](https://github.com/ssrjkk/qualix) | Python, FastAPI, pytest, Playwright, Locust |
 | [qa-arsenal](https://ssrjkk.github.io/qa-arsenal/) | QA monorepo for hh.ru API/UI, guap.ru Python/Go and amoCRM: API, UI, load, DB and Kafka suites. [Source](https://github.com/ssrjkk/qa-arsenal) | Python, Go, Playwright, Kafka |
-| [mobius](https://ssrjkk.github.io/mobius/) | Mobile test automation for Android and iOS: 947 tests, 99% coverage, screen objects, device pooling. [Source](https://github.com/ssrjkk/mobius) | Python, Appium 2.x, pytest |
+| [mobius](https://ssrjkk.github.io/mobius/) | Mobile test automation for Android and iOS: 950 tests, 99% code coverage, screen objects, device pooling. [Source](https://github.com/ssrjkk/mobius) | Python, Appium 2.x, pytest |
 | [noema](https://ssrjkk.github.io/noema/) | Neuro-symbolic engineering: an LLM proposes solutions, Z3 verifies them, incidents are fixed through pull requests. [Source](https://github.com/ssrjkk/noema) | Python, Z3, gRPC |
 | [volley](https://ssrjkk.github.io/volley/) | Load-testing platform: C++20 async core, YAML scenarios, OAuth2/mTLS/Vault, OTLP and Prometheus, Python SDK. [Source](https://github.com/ssrjkk/volley) | C++20, Boost.Beast, gRPC |
 | [b2w-crypto-tg-bot](https://ssrjkk.github.io/b2w-crypto-tg-bot/) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. [Source](https://github.com/ssrjkk/b2w-crypto-tg-bot) | Python, aiogram, PostgreSQL |
