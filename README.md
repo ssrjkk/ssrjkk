@@ -198,7 +198,7 @@ Twenty-one live sites, this hub included. Every address below is checked with a 
 - [tippy-on-base](https://ssrjkk.github.io/tippy-on-base/) — USDC economy landing; the [bot](https://t.me/tippy_on_base_bot) works, the Cloudflare app and API are down
 - [b2w-crypto-tg-bot](https://ssrjkk.github.io/b2w-crypto-tg-bot/) — crypto portfolio platform
 - [tt_bot](https://ssrjkk.github.io/tt_bot/) — tasks and monitoring
-- [twinby-swipe-bot](https://ssrjkk.github.io/twinby-swipe-bot/) — content matching bot
+- [&lt;3 (Heart3)](https://ssrjkk.github.io/twinby-swipe-bot/) — Twinby profile automation; experimental API core
 
 ## Engineering tools
 
@@ -211,7 +211,7 @@ Twenty-one live sites, this hub included. Every address below is checked with a 
 | [volley](https://ssrjkk.github.io/volley/) | Load-testing platform: C++20 async core, YAML scenarios, OAuth2/mTLS/Vault, OTLP and Prometheus, Python SDK. [Source](https://github.com/ssrjkk/volley) | C++20, Boost.Beast, gRPC |
 | [b2w-crypto-tg-bot](https://ssrjkk.github.io/b2w-crypto-tg-bot/) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. [Source](https://github.com/ssrjkk/b2w-crypto-tg-bot) | Python, aiogram, PostgreSQL |
 | [tt_bot](https://ssrjkk.github.io/tt_bot/) | Telegram task and service-monitoring bot: an asyncio worker pool checks endpoints, keeps statuses and exports CSV reports. [Source](https://github.com/ssrjkk/tt_bot) | Python, aiogram |
-| [twinby-swipe-bot](https://ssrjkk.github.io/twinby-swipe-bot/) | Telegram swipe bot for content discovery, with Android/iOS/macOS automation. [Source](https://github.com/ssrjkk/twinby-swipe-bot) | Python, Telegram |
+| [&lt;3 (Heart3)](https://ssrjkk.github.io/twinby-swipe-bot/) | Twinby profile automation on Android/iPhone/Mac; experimental API core, 302 tests. AI modules remain standalone; 28 registry specifications are not verified integrations. [Source](https://github.com/ssrjkk/twinby-swipe-bot) | Python, Appium, uiautomator2, FastAPI |
 | [ssrjkk.github.io](https://github.com/ssrjkk/ssrjkk.github.io) | The project hub and services site; also home to the [@ssrjkk_bot](https://t.me/ssrjkk_bot) catalogue worker in [bot/](https://github.com/ssrjkk/ssrjkk.github.io/tree/main/bot). | HTML, CSS, JavaScript, Cloudflare Workers |
 
 ## Stack
