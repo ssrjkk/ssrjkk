@@ -152,11 +152,11 @@ TypeScript · Next.js · tRPC · Prisma
 </tr>
 <tr>
 <td colspan="2" valign="top">
-<a href="https://ssrjkk.github.io/fruktovy/"><img src="assets/shots/fruktovy.jpg" alt="Фруктовый storefront: searchable catalogue, cart, basket builder and gallery"></a>
+<a href="https://ssrjkk.github.io/fruktovy/"><img src="assets/shots/fruktovy.jpg" alt="Fruktovy dvorets storefront: catalogue of 25 items, order basket, 3D crate builder and gallery"></a>
 
-**fruktovy — shop storefront with ordering**
+**fruktovy — fruit shop storefront**
 
-Catalog site for a Saint Petersburg fruit shop: search and filters, cart with reorder, basket builder, seasonal calendar, gallery lightbox and WhatsApp checkout. Two themes share one markup; vanilla HTML/CSS/JS, assets self-hosted, zero trackers. CI runs a mutation-proved quality gate.
+Catalog site for a Saint Petersburg fruit and vegetable shop: 25 items in six aisles, search, an order basket with reorder, a 3D crate builder, a seasonal calendar and a gallery lightbox. No prices — checkout opens a WhatsApp request and the seller names the day's price. Five themes on one vanilla HTML/CSS/JS markup, self-hosted assets, zero trackers; CI runs 46 basket tests and a 169-point gate proved by 189 mutations.
 
 HTML · CSS · JavaScript · Python CI
 
