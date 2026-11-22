@@ -1,1 +1,252 @@
-PGRpdiBhbGlnbj0iY2VudGVyIj4KCiMgU2VyZ2V5IFNpdG5pa292CgoqKkZ1bGwtc3RhY2sgZW5naW5lZXIgwrcgVGVsZWdyYW0gYm90cyDCtyBXZWIzIMK3IEFJIHRvb2xpbmcqKgoKW0dpdEh1Yl0oaHR0cHM6Ly9naXRodWIuY29tL3NzcmpraykgwrcgW1RlbGVncmFtXShodHRwczovL3QubWUvc3NyamtrKSDCtyBbQm90IGNhdGFsb2d1ZV0oaHR0cHM6Ly90Lm1lL3Nzcmpra19ib3QpIMK3IFtQcm9qZWN0cyBodWJdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby8pCgo8L2Rpdj4KCi0tLQoKSSBidWlsZCBhbmQgb3BlcmF0ZSB3ZWIgc2VydmljZXMsIFRlbGVncmFtIGJvdHMgYW5kIGludGVybmFsIHRvb2xzLiBQeXRob24gYW5kIFR5cGVTY3JpcHQgZmlyc3Q6IEZhc3RBUEksIGFpb2dyYW0sIFJlYWN0LCBQb3N0Z3JlU1FMLCBSZWRpcywgRG9ja2VyLCBHaXRIdWIgQWN0aW9ucy4gRXZlcnkgcHJvamVjdCBiZWxvdyBpcyBvbmUgSSBjYW4gb3BlbiwgcnVuIGFuZCBzaG93IOKAlCBzY3JlZW5zaG90cyBhcmUgdGFrZW4gZnJvbSB0aGUgbGl2ZSBpbnRlcmZhY2VzLCBub3QgZnJvbSBtb2NrdXBzLgoKMjEgbGl2ZSBzaXRlcyAodGhpcyBodWIgaW5jbHVkZWQpLCA0IFRlbGVncmFtIGJvdHMsIHBsdXMgbG9hZC10ZXN0aW5nIGFuZCBlbmdpbmVlcmluZyB0b29scy4gU291cmNlIGZvciBldmVyeSBwcm9qZWN0IGlzIG9uIFtHaXRIdWJdKGh0dHBzOi8vZ2l0aHViLmNvbS9zc3Jqa2spLgoKIyMgTGl2ZSBwcm9qZWN0cwoKPHRhYmxlPgo8dHI+Cjx0ZCB3aWR0aD0iNTAlIiB2YWxpZ249InRvcCI+CjxhIGhyZWY9Imh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9jb3J2aWRfY3JtLyI+PGltZyBzcmM9ImFzc2V0cy9zaG90cy9jb3J2aWRfY3JtLmpwZyIgYWx0PSJDb3J2aWQgQ1JNIGxhbmRpbmc6IGZyZWVsYW5jZSBkZWFscywgaW52b2ljZXMgYW5kIGFuYWx5dGljcyI+PC9hPgoKKipjb3J2aWRfY3JtIOKAlCBDUk0gZm9yIGZyZWVsYW5jZSB3b3JrKioKCkRlYWxzLCBpbnZvaWNlcywgY2xpZW50cywgdGFza3MgYW5kIGFuYWx5dGljcyBpbiBvbmUgaW50ZXJmYWNlLiBOZXh0LmpzIDE2IG9uIHRoZSBBcHAgUm91dGVyLCA1OSB1bml0IGFuZCA3IGUyZSB0ZXN0cyBpbiBDSS4KClR5cGVTY3JpcHQgwrcgTmV4dC5qcyDCtyBUYWlsd2luZCB2NCDCtyBQbGF5d3JpZ2h0CgpbU2l0ZV0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL2NvcnZpZF9jcm0vKSDCtyBbU291cmNlXShodHRwczovL2dpdGh1Yi5jb20vc3NyamtrL2NvcnZpZF9jcm0pCjwvdGQ+Cjx0ZCB3aWR0aD0iNTAlIiB2YWxpZ249InRvcCI+CjxhIGhyZWY9Imh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9ib3RoaXZlLyI+PGltZyBzcmM9ImFzc2V0cy9zaG90cy9ib3RoaXZlLmpwZyIgYWx0PSJCb3RoaXZlIGxhbmRpbmcgcGFnZSB3aXRoIGxpdmUgZGFzaGJvYXJkIHByZXZpZXciPjwvYT4KCioqYm90aGl2ZSDigJQgYm90IGZsZWV0IGNvbnRyb2wqKgoKU2VsZi1ob3N0ZWQgb3JjaGVzdHJhdGlvbiBmb3IgYm90cyBvbiBlaWdodCBwbGF0Zm9ybXM6IEJ1bGxNUSBxdWV1ZXMsIHNhbmRib3hlZCBzY3JpcHQgZW5naW5lLCB3ZWJob29rcywgUHJvbWV0aGV1cyBtZXRyaWNzLgoKVHlwZVNjcmlwdCDCtyBGYXN0aWZ5IMK3IFJlYWN0IMK3IFJlZGlzIMK3IFBvc3RncmVTUUwKCltTaXRlXShodHRwczovL3Nzcmpray5naXRodWIuaW8vYm90aGl2ZS8pIMK3IFtTb3VyY2VdKGh0dHBzOi8vZ2l0aHViLmNvbS9zc3Jqa2svYm90aGl2ZSkKPC90ZD4KPC90cj4KPHRyPgo8dGQgd2lkdGg9IjUwJSIgdmFsaWduPSJ0b3AiPgo8YSBocmVmPSJodHRwczovL3Nzcmpray5naXRodWIuaW8vcmF2ZW4vIj48aW1nIHNyYz0iYXNzZXRzL3Nob3RzL3JhdmVuLmpwZyIgYWx0PSJSYXZlbiBsYW5kaW5nIHBhZ2U6IHNlbGYtaG9zdGVkIE1DUCBzZXJ2ZXIgd2l0aCA2NiB0b29scyI+PC9hPgoKKipyYXZlbiDigJQgc2VsZi1ob3N0ZWQgTUNQIHNlcnZlcioqCgo2NiB0b29scyBvdmVyIHN0ZGlvIGFuZCBIVFRQLCB3b3Jrc3BhY2UgY29uZmluZW1lbnQgYW5kIGtleWVkIGF1dGguIE9uZSBwcm9jZXNzIHlvdSBob3N0IHlvdXJzZWxmLCBNSVQgbGljZW5zZWQuCgpQeXRob24gwrcgRmFzdEFQSSDCtyBNQ1AgwrcgUnVzdCAvIEdvCgpbU2l0ZV0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL3JhdmVuLykgwrcgW0RvY3NdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9yYXZlbi9kb2NzLykgwrcgW1NvdXJjZV0oaHR0cHM6Ly9naXRodWIuY29tL3Nzcmpray9yYXZlbikKPC90ZD4KPHRkIHdpZHRoPSI1MCUiIHZhbGlnbj0idG9wIj4KPGEgaHJlZj0iaHR0cHM6Ly93YWtlLTdrNi5wYWdlcy5kZXYiPjxpbWcgc3JjPSJhc3NldHMvc2hvdHMvd2FrZS5qcGciIGFsdD0iV2FrZSB0ZXJtaW5hbDogTGlnaHRlciBwZXJwIG1hcmtldHMsIGZ1bmRpbmcgYW5kIEFyY3VzIG1hcmtldHMiPjwvYT4KCioqd2FrZSDigJQgbXVsdGktdmVudWUgdHJhZGluZyB0ZXJtaW5hbCoqCgpMaWdodGVyIGFuZCBBcmN1cyBwZXJwIG1hcmtldHMsIGZ1bmRpbmcsIHBvcnRmb2xpbyBhbmQgcmlzayB0b29sczsgY29weSB0cmFkaW5nLCBQcmVkaWN0IGFuZCBhbiBBSSBhZ2VudCBhcmUgaW4gdGhlIGNvZGViYXNlLiBSZWFjdCBmcm9udGVuZCwgRmFzdEFQSSBiYWNrZW5kLCBUZWxlZ3JhbSBib3QuCgpSZWFjdCDCtyBGYXN0QVBJIMK3IFBvc3RncmVTUUwgwrcgVGVsZWdyYW0gYm90CgpbU2l0ZV0oaHR0cHM6Ly93YWtlLTdrNi5wYWdlcy5kZXYpIMK3IFtCb3RdKGh0dHBzOi8vdC5tZS93YWtldHJhZGVfYm90KSDCtyBbU291cmNlXShodHRwczovL2dpdGh1Yi5jb20vc3NyamtrL3dha2UpCjwvdGQ+CjwvdHI+Cjx0cj4KPHRkIHdpZHRoPSI1MCUiIHZhbGlnbj0idG9wIj4KPGEgaHJlZj0iaHR0cHM6Ly90Lm1lL3RpcHB5X29uX2Jhc2VfYm90Ij48aW1nIHNyYz0iYXNzZXRzL3Nob3RzL3RpcHB5LW9uLWJhc2UuanBnIiBhbHQ9IlRpcHB5IFRlbGVncmFtIGJvdDogY29tbXVuaXR5IGVjb25vbXkgaW4gVVNEQyBvbiBCYXNlIHdpdGggcHJlZGljdGlvbiBtYXJrZXRzIj48L2E+CgoqKnRpcHB5LW9uLWJhc2Ug4oCUIFVTREMgZWNvbm9teSBpbiBUZWxlZ3JhbSoqCgpUaXBzLCBkb25hdGlvbiBwYWdlcywgTE1TUiBwcmVkaWN0aW9uIG1hcmtldHMgYW5kIGEgTWluaSBBcHAgb24gQmFzZS4gWmVybyBnYXMgZm9yIHVzZXJzLCBwcm9vZiBvZiByZXNlcnZlcyBvbiB0aGUgZGFzaGJvYXJkLiBUaGUgYm90IGFuZCB0aGUgW2xhbmRpbmcgcGFnZV0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL3RpcHB5LW9uLWJhc2UvKSB3b3JrOyB0aGUgQ2xvdWRmbGFyZSBhcHAgYW5kIEFQSSBhcmUgZG93bi4KClB5dGhvbiDCtyBhaW9ncmFtIMK3IEJhc2UgLyBVU0RDIMK3IE1pbmkgQXBwCgpbQm90XShodHRwczovL3QubWUvdGlwcHlfb25fYmFzZV9ib3QpIMK3IFtTb3VyY2VdKGh0dHBzOi8vZ2l0aHViLmNvbS9zc3Jqa2svdGlwcHktb24tYmFzZSkKPC90ZD4KPHRkIHdpZHRoPSI1MCUiIHZhbGlnbj0idG9wIj4KPGEgaHJlZj0iaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL2RyYWZ0ZXIvIj48aW1nIHNyYz0iYXNzZXRzL3Nob3RzL2RyYWZ0ZXIuanBnIiBhbHQ9IkRyYWZ0ZXI6IGJyb3dzZXIgQUkgUUEgYXNzaXN0YW50IHdpdGggdGFzayBtb2R1bGVzIj48L2E+CgoqKmRyYWZ0ZXIg4oCUIEFJIFFBIGFzc2lzdGFudCoqCgpCcm93c2VyIGFwcCB0aGF0IHR1cm5zIGEgdGFzayBkZXNjcmlwdGlvbiBpbnRvIGEgdGVzdCBwbGFuLCB0ZXN0IGNhc2VzLCBhdXRvbWF0aW9uIGNvZGUgYW5kIGJ1ZyByZXBvcnRzLiBOaW5lIHByb3ZpZGVycywgYnJpbmcgeW91ciBvd24ga2V5LgoKVHlwZVNjcmlwdCDCtyBSZWFjdCDCtyA5IEFJIHByb3ZpZGVycwoKW1NpdGVdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9kcmFmdGVyLykgwrcgW1NvdXJjZV0oaHR0cHM6Ly9naXRodWIuY29tL3Nzcmpray9kcmFmdGVyKQo8L3RkPgo8L3RyPgo8dHI+Cjx0ZCB3aWR0aD0iNTAlIiB2YWxpZ249InRvcCI+CjxhIGhyZWY9Imh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9lenpvZmZlci8iPjxpbWcgc3JjPSJhc3NldHMvc2hvdHMvZXp6b2ZmZXIuanBnIiBhbHQ9IkVaT2ZmZXIgc2l0ZTogam9iIHNlYXJjaCBhdXRvbWF0aW9uIGZvciBoaC5ydSI+PC9hPgoKKiplenpvZmZlciDigJQgam9iIHNlYXJjaCBhdXRvbWF0aW9uIGZvciBoaC5ydSoqCgpWYWNhbmN5IG1hdGNoaW5nLCBjb3ZlciBsZXR0ZXJzLCByZXN1bWUgbWFuYWdlbWVudCBhbmQgVGVsZWdyYW0gbm90aWZpY2F0aW9ucy4gTmV4dC5qcyBhcHAgd2l0aCBhIGRvY3VtZW50ZWQgcHJvdmlkZXIgbGF5ZXIuCgpUeXBlU2NyaXB0IMK3IE5leHQuanMgwrcgaGgucnUgQVBJCgpbU2l0ZV0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL2V6em9mZmVyLykgwrcgW1NvdXJjZV0oaHR0cHM6Ly9naXRodWIuY29tL3Nzcmpray9lenpvZmZlcikKPC90ZD4KPHRkIHdpZHRoPSI1MCUiIHZhbGlnbj0idG9wIj4KPGEgaHJlZj0iaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL2hhcnZlc3QvIj48aW1nIHNyYz0iYXNzZXRzL3Nob3RzL2hhcnZlc3QuanBnIiBhbHQ9IkhhcnZlc3Qgc2l0ZTogUUEgc3RhbmQgZm9yIEVWTSB0ZXN0bmV0cyI+PC9hPgoKKipoYXJ2ZXN0IOKAlCBRQSBzdGFuZCBmb3IgRVZNIHRlc3RuZXRzKioKCldhbGxldCBmbGVldCwgc2NlbmFyaW9zLCBuZXR3b3JrIGhlYWx0aCBhbmQgcnVuIHJlcG9ydHMgZm9yIHB1YmxpYyB0ZXN0bmV0cy4gVGVzdG5ldHMgb25seSwgcGx1cyBhIFRlbGVncmFtIGJvdCBmb3IgdGhlIG9wZXJhdG9yLgoKUHl0aG9uIMK3IEVWTSB0ZXN0bmV0cyDCtyBUZWxlZ3JhbSBib3QKCltTaXRlXShodHRwczovL3Nzcmpray5naXRodWIuaW8vaGFydmVzdC8pIMK3IFtTb3VyY2VdKGh0dHBzOi8vZ2l0aHViLmNvbS9zc3Jqa2svaGFydmVzdCkKPC90ZD4KPC90cj4KPHRyPgo8dGQgd2lkdGg9IjUwJSIgdmFsaWduPSJ0b3AiPgo8YSBocmVmPSJodHRwczovL3Nzcmpray5naXRodWIuaW8vc2hyb3VkLyI+PGltZyBzcmM9ImFzc2V0cy9zaG90cy9zaHJvdWQuanBnIiBhbHQ9IlNocm91ZCBsYWI6IHByb3RvY29sIHJ1biBpbiB0aGUgYnJvd3NlciI+PC9hPgoKKipzaHJvdWQg4oCUIEZIRSByZXNlYXJjaCBwcm90b3R5cGUqKgoKVHJhaW5pbmcgb3ZlciBlbmNyeXB0ZWQgZGF0YSBvbiBhbiBmaEVWTSBhcHAgY2hhaW46IGVzY3Jvdy1iYWNrZWQgdGFza3MsIGEgbW9jay12ZXJpZmllZCBTVEFSSyBwcm9vZi1vZi1jb21wdXRlIHBhdGgsIHN0cmVhbWluZyBwYXlvdXRzIGFuZCB0aHJlc2hvbGQgZGVjcnlwdGlvbi4gUmVzZWFyY2ggY29kZSwgbm90IGF1ZGl0ZWQuCgpTb2xpZGl0eSDCtyBUeXBlU2NyaXB0IMK3IFJ1c3QgwrcgZmhFVk0KCltTaXRlXShodHRwczovL3Nzcmpray5naXRodWIuaW8vc2hyb3VkLykgwrcgW1NvdXJjZV0oaHR0cHM6Ly9naXRodWIuY29tL3Nzcmpray9zaHJvdWQpCjwvdGQ+Cjx0ZCB3aWR0aD0iNTAlIiB2YWxpZ249InRvcCI+CjxhIGhyZWY9Imh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9hZ2VudC1za2lsbHMvIj48aW1nIHNyYz0iYXNzZXRzL3Nob3RzL2FnZW50LXNraWxscy5qcGciIGFsdD0iQWdlbnQgU2tpbGxzIGNhdGFsb2c6IHNraWxscyBmb3IgQUkgYWdlbnRzIj48L2E+CgoqKmFnZW50LXNraWxscyDigJQgc2tpbGxzIGZvciBBSSBhZ2VudHMqKgoKMTIwIGJpbGluZ3VhbCAoRU4vUlUpIHNraWxscywgMjAgSVQgcm9hZG1hcHMgYW5kIDI1IGd1aWRlcy4gUHVibGljIHJlZ2lzdHJ5LCBDTEkgYHNlYXJjaCAtLXJlbW90ZWAsIFB5dGhvbiBTREsgYW5kIGEgdmFsaWRhdGVkIENJIHNpdGUgYnVpbGQuCgpQeXRob24gwrcgQWdlbnQgU2tpbGxzIMK3IFNESyAvIENMSQoKW1NpdGVdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9hZ2VudC1za2lsbHMvKSDCtyBbUmVnaXN0cnldKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9hZ2VudC1za2lsbHMvc2tpbGxzX2NhdGFsb2cuanNvbikgwrcgW1JvYWRtYXBzXShodHRwczovL3Nzcmpray5naXRodWIuaW8vYWdlbnQtc2tpbGxzL3JvYWRtYXBzLmh0bWwpIMK3IFtHdWlkZXNdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9hZ2VudC1za2lsbHMvZ3VpZGVzLmh0bWwpIMK3IFtTb3VyY2VdKGh0dHBzOi8vZ2l0aHViLmNvbS9zc3Jqa2svYWdlbnQtc2tpbGxzKQo8L3RkPgo8L3RyPgo8dHI+Cjx0ZCBjb2xzcGFuPSIyIiB2YWxpZ249InRvcCI+CjxhIGhyZWY9Imh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby92ZXJzby8iPjxpbWcgc3JjPSJhc3NldHMvc2hvdHMvdmVyc28uanBnIiBhbHQ9IlZlcnNvIGxhbmRpbmc6IGVkaXRvcmlhbCBoZWFkbGVzcyBDTVMgYW5kIGJsb2NrIHBhZ2UgYnVpbGRlciI+PC9hPgoKKip2ZXJzbyDigJQgZWRpdG9yaWFsIGhlYWRsZXNzIENNUyoqCgpDb2xsZWN0aW9ucywgcmVjb3JkcywgcmV2aXNpb25zLCBhIHJlZHBvbGljeSBrYW5iYW4gYW5kIGhlYWRsZXNzIGRlbGl2ZXJ5IG92ZXIgdGhlIEFQSS4gQmxvY2sgcGFnZSBidWlsZGVyIGluY2x1ZGVkOyBhY2Nlc3NpYmlsaXR5IGF1ZGl0IHJ1bnMgaW4gQ0kuCgpUeXBlU2NyaXB0IMK3IE5leHQuanMgwrcgdFJQQyDCtyBQcmlzbWEKCltTaXRlXShodHRwczovL3Nzcmpray5naXRodWIuaW8vdmVyc28vKSDCtyBbU291cmNlXShodHRwczovL2dpdGh1Yi5jb20vc3NyamtrL3ZlcnNvKQo8L3RkPgo8L3RyPgo8dHI+Cjx0ZCBjb2xzcGFuPSIyIiB2YWxpZ249InRvcCI+CjxhIGhyZWY9Imh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9mcnVrdG92eS8iPjxpbWcgc3JjPSJhc3NldHMvc2hvdHMvZnJ1a3RvdnkuanBnIiBhbHQ9IkZydWt0b3Z5IGR2b3JldHMgc3RvcmVmcm9udDogY2F0YWxvZ3VlIG9mIDI1IGl0ZW1zLCBvcmRlciBiYXNrZXQsIDNEIGNyYXRlIGJ1aWxkZXIgYW5kIGdhbGxlcnkiPjwvYT4KCioqZnJ1a3Rvdnkg4oCUIGZydWl0IHNob3Agc3RvcmVmcm9udCoqCgpDYXRhbG9nIHNpdGUgZm9yIGEgU2FpbnQgUGV0ZXJzYnVyZyBmcnVpdCBhbmQgdmVnZXRhYmxlIHNob3A6IDI1IGl0ZW1zIGluIHNpeCBhaXNsZXMsIHNlYXJjaCwgYW4gb3JkZXIgYmFza2V0IHdpdGggcmVvcmRlciwgYSAzRCBjcmF0ZSBidWlsZGVyLCBhIHNlYXNvbmFsIGNhbGVuZGFyIGFuZCBhIGdhbGxlcnkgbGlnaHRib3guIE5vIHByaWNlcyDigJQgY2hlY2tvdXQgb3BlbnMgYSBUZWxlZ3JhbSByZXF1ZXN0IGFuZCB0aGUgc2VsbGVyIG5hbWVzIHRoZSBkYXkncyBwcmljZTsgYSBRUiBjb2RlIG9uIHRoZSBzdG9yZWZyb250IGFuZCBpbiB0aGUgUkVBRE1FIHBvaW50cyBhdCB0aGUgc2FtZSBhZGRyZXNzLiBGaXZlIHRoZW1lcyBvbiBvbmUgdmFuaWxsYSBIVE1ML0NTUy9KUyBtYXJrdXAsIHNlbGYtaG9zdGVkIGFzc2V0cywgemVybyB0cmFja2VyczsgQ0kgcnVucyA0OSBiYXNrZXQgdGVzdHMgYW5kIGEgMTkzLWNoZWNrIGdhdGUgcHJvdmVkIGJ5IDIxNCBtdXRhdGlvbnMuCgpIVE1MIMK3IENTUyDCtyBKYXZhU2NyaXB0IMK3IFB5dGhvbiBDSQoKW1NpdGVdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9mcnVrdG92eS8pIMK3IFtTb3VyY2VdKGh0dHBzOi8vZ2l0aHViLmNvbS9zc3Jqa2svZnJ1a3RvdnkpCjwvdGQ+CjwvdHI+Cjx0cj4KPHRkIGNvbHNwYW49IjIiIHZhbGlnbj0idG9wIj4KPGEgaHJlZj0iaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL291ci1qYW1vbi8iPjxpbWcgc3JjPSJhc3NldHMvc2hvdHMvb3VyLWphbW9uLmpwZyIgYWx0PSJOYXNoIEtoYW1vbiBkZWxpY2F0ZXNzZW4gc3RvcmVmcm9udDogZGVtby1tb2RlIGJhbm5lciwgdHdlbHZlIGRlcGFydG1lbnQgY2hpcHMgYW5kIHRoZSBjdXJlZCBoYW0gY291bnRlciI+PC9hPgoKKipvdXItamFtb24g4oCUIGRlbGljYXRlc3NlbiBzdG9yZWZyb250KioKCkN1cmVkLWhhbSBhbmQgdGFwYXMgY291bnRlciBhdCBTeXRueSBtYXJrZXQgaW4gU2FpbnQgUGV0ZXJzYnVyZzogMTIgZGVwYXJ0bWVudHMsIDIxMCBpdGVtcyDigJQgMTgzIHByaWNlZCBhbmQgMjcgYXdhaXRpbmcgY29uZmlybWF0aW9uIOKAlCBzZWFyY2gsIGEgY2FydCB3aXRoIHVuZG8sIHNlbGVjdGlvbiBieSBjdXJpbmcgbW9udGhzIGFuZCB3ZWlnaHQgcHJpY2VkIGFmdGVyIHNsaWNpbmcuIFRoZSBwdWJsaXNoZWQgcGFnZSBpcyBhIHN0YXRpYyBzdG9yZWZyb250IG9uIEdpdEh1YiBQYWdlcyB3aXRoIHNlbGYtaG9zdGVkIGZvbnRzIGFuZCB6ZXJvIGV4dGVybmFsIHJlcXVlc3RzOyBhIE5leHQuanMgZW5naW5lIGJlaGluZCBpdCBrZWVwcyBvcmRlcnMsIGRlbGl2ZXJ5IGNvc3RzLCBULUJhbmsgcGF5bWVudHMgYW5kIHRoZSAxQyBleHBvcnQuIE5laXRoZXIgdGhlIGJhbmsgdGVybWluYWwgbm9yIDFDIGlzIHdpcmVkIHRvIGxpdmUgY3JlZGVudGlhbHMgeWV0LCBzbyB0aGUgc3RvcmVmcm9udCBydW5zIGluIGRlbW8gbW9kZTogYSBiYW5uZXIgYWNyb3NzIHRoZSB0b3AgYW5kIG5vaW5kZXggdW50aWwgdGhlIHNlbGxlciBjb25maXJtcyB0aGUgcHJpY2VzLiBDSSBydW5zIDIwMCB1bml0IHRlc3RzIGFuZCA5NyBicm93c2VyIHNjZW5hcmlvcyBhdCAxNDQwLCA3NjggYW5kIDM2MCBweCwgd2l0aCBmb3VyIHJlcXVpcmVkIGNoZWNrcywgYSBwcm90ZWN0ZWQgbWFpbiBhbmQgYSBjdXJhdGVkIFBhZ2VzIGFydGlmYWN0IHRoYXQgcHVibGlzaGVzIHRoZSBzdG9yZWZyb250IG9ubHkuCgpUeXBlU2NyaXB0IMK3IE5leHQuanMgwrcgU1FMaXRlIMK3IFBsYXl3cmlnaHQKCltTaXRlXShodHRwczovL3Nzcmpray5naXRodWIuaW8vb3VyLWphbW9uLykgwrcgW1NvdXJjZV0oaHR0cHM6Ly9naXRodWIuY29tL3Nzcmpray9vdXItamFtb24pCjwvdGQ+CjwvdHI+CjwvdGFibGU+CgojIyBUZWxlZ3JhbSBib3RzCgp8IEJvdCB8IFdoYXQgaXQgZG9lcyB8CnwtLS0tLXwtLS0tLS0tLS0tLS0tLXwKfCBbQHNzcmpra19ib3RdKGh0dHBzOi8vdC5tZS9zc3Jqa2tfYm90KSB8IFByb2plY3QgY2F0YWxvZ3VlOiBgL3Byb2plY3RzYCwgYC9zaXRlc2AsIGAvYm90c2AsIGAvdG9wYCwgYC9zZWFyY2hgLCBzY3JlZW5zaG90cywgUlUvRU4uIFJ1bnMgb24gQ2xvdWRmbGFyZSBXb3JrZXJzLiB8CnwgW0B3YWtldHJhZGVfYm90XShodHRwczovL3QubWUvd2FrZXRyYWRlX2JvdCkgfCBNYXJrZXQgY2FyZHMsIGZ1bmRpbmcgYW5kIHRoZSBMaWdodGVyIHRlcm1pbmFsIGxpbmsuIHwKfCBbQHRpcHB5X29uX2Jhc2VfYm90XShodHRwczovL3QubWUvdGlwcHlfb25fYmFzZV9ib3QpIHwgVGlwcywgZG9uYXRpb24gcGFnZXMsIHByZWRpY3Rpb24gbWFya2V0cyBhbmQgdGhlIE1pbmkgQXBwLiB8CnwgW0BoYXJ2ZXN0X3Rlc3RuZXRfYm90XShodHRwczovL3QubWUvaGFydmVzdF90ZXN0bmV0X2JvdCkgfCBUZXN0bmV0IHN0YW5kIHN0YXR1cyBhbmQgb3BlcmF0b3IgY29tbWFuZHMuIHwKCiMjIFNpdGVzCgpUd2VudHktdHdvIGxpdmUgc2l0ZXMsIHRoaXMgaHViIGluY2x1ZGVkLiBFdmVyeSBhZGRyZXNzIGJlbG93IGlzIGNoZWNrZWQgd2l0aCBhIHJlYWwgSFRUUCByZXF1ZXN0LCBhbmQgdGhlIGxpc3QgaXMgdGhlIHNhbWUgb25lIHRoZSBbaHViXShodHRwczovL3Nzcmpray5naXRodWIuaW8vKSBhbmQgW0Bzc3Jqa2tfYm90XShodHRwczovL3QubWUvc3NyamtrX2JvdCkgcHVibGlzaC4KCi0gW3Nzcmpray5naXRodWIuaW9dKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby8pIOKAlCBzZXJ2aWNlcyBhbmQgbGl2ZSBwcm9qZWN0IGh1YgotIFtib3RoaXZlXShodHRwczovL3Nzcmpray5naXRodWIuaW8vYm90aGl2ZS8pIOKAlCBib3Qgb3JjaGVzdHJhdGlvbiBwbGF0Zm9ybQotIFtyYXZlbl0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL3JhdmVuLykg4oCUIE1DUCBzZXJ2ZXIgc2l0ZSBhbmQgW2RvY3NdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9yYXZlbi9kb2NzLykKLSBbd2FrZV0oaHR0cHM6Ly93YWtlLTdrNi5wYWdlcy5kZXYpIOKAlCB0cmFkaW5nIHRlcm1pbmFsCi0gW2RyYWZ0ZXJdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9kcmFmdGVyLykg4oCUIEFJIFFBIGFzc2lzdGFudAotIFtlenpvZmZlcl0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL2V6em9mZmVyLykg4oCUIGhoLnJ1IGF1dG9tYXRpb24KLSBbaGFydmVzdF0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL2hhcnZlc3QvKSDigJQgRVZNIHRlc3RuZXQgUUEgc3RhbmQKLSBbc2hyb3VkXShodHRwczovL3Nzcmpray5naXRodWIuaW8vc2hyb3VkLykg4oCUIEZIRSByZXNlYXJjaCBzaXRlCi0gW2FnZW50LXNraWxsc10oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL2FnZW50LXNraWxscy8pIOKAlCBza2lsbHMgY2F0YWxvZwotIFtxdWFsaXhdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9xdWFsaXgvKSDigJQgUUEgYXV0b21hdGlvbiBwbGF0Zm9ybQotIFtxYS1hcnNlbmFsXShodHRwczovL3Nzcmpray5naXRodWIuaW8vcWEtYXJzZW5hbC8pIOKAlCBRQSBtb25vcmVwbwotIFttb2JpdXNdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9tb2JpdXMvKSDigJQgbW9iaWxlIHRlc3QgYXV0b21hdGlvbgotIFtub2VtYV0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL25vZW1hLykg4oCUIG5ldXJvLXN5bWJvbGljIGVuZ2luZWVyaW5nCi0gW3ZvbGxleV0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL3ZvbGxleS8pIOKAlCBsb2FkLXRlc3RpbmcgcGxhdGZvcm0KLSBbY29ydmlkX2NybV0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL2NvcnZpZF9jcm0vKSDigJQgZnJlZWxhbmNlIENSTQotIFt2ZXJzb10oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL3ZlcnNvLykg4oCUIGhlYWRsZXNzIENNUwotIFtmcnVrdG92eV0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL2ZydWt0b3Z5Lykg4oCUIGZydWl0IHNob3Agc3RvcmVmcm9udAotIFtvdXItamFtb25dKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9vdXItamFtb24vKSDigJQgZGVsaWNhdGVzc2VuIHN0b3JlZnJvbnQsIGRlbW8gbW9kZSB1bnRpbCBwcmljZXMgYXJlIGNvbmZpcm1lZAotIFt0aXBweS1vbi1iYXNlXShodHRwczovL3Nzcmpray5naXRodWIuaW8vdGlwcHktb24tYmFzZS8pIOKAlCBVU0RDIGVjb25vbXkgbGFuZGluZzsgdGhlIFtib3RdKGh0dHBzOi8vdC5tZS90aXBweV9vbl9iYXNlX2JvdCkgd29ya3MsIHRoZSBDbG91ZGZsYXJlIGFwcCBhbmQgQVBJIGFyZSBkb3duCi0gW2Iydy1jcnlwdG8tdGctYm90XShodHRwczovL3Nzcmpray5naXRodWIuaW8vYjJ3LWNyeXB0by10Zy1ib3QvKSDigJQgY3J5cHRvIHBvcnRmb2xpbyBwbGF0Zm9ybQotIFt0dF9ib3RdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby90dF9ib3QvKSDigJQgdGFza3MgYW5kIG1vbml0b3JpbmcKLSBbJmx0OzMgKEhlYXJ0MyldKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby90d2luYnktc3dpcGUtYm90Lykg4oCUIFR3aW5ieSBwcm9maWxlIGF1dG9tYXRpb247IGV4cGVyaW1lbnRhbCBBUEkgY29yZQoKIyMgRW5naW5lZXJpbmcgdG9vbHMKCnwgUHJvamVjdCB8IERlc2NyaXB0aW9uIHwgU3RhY2sgfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS18LS0tLS0tLXwKfCBbcXVhbGl4XShodHRwczovL3Nzcmpray5naXRodWIuaW8vcXVhbGl4LykgfCBRQSBhdXRvbWF0aW9uIHBsYXRmb3JtOiAzMTcgdGVzdHMgYWNyb3NzIHNpeCBsYXllcnMsIDg1JSsgY292ZXJhZ2UsIHNlY3VyaXR5IGhhcmRlbmluZywgazhzLXJlYWR5LiBbU291cmNlXShodHRwczovL2dpdGh1Yi5jb20vc3NyamtrL3F1YWxpeCkgfCBQeXRob24sIEZhc3RBUEksIHB5dGVzdCwgUGxheXdyaWdodCwgTG9jdXN0IHwKfCBbcWEtYXJzZW5hbF0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL3FhLWFyc2VuYWwvKSB8IFFBIG1vbm9yZXBvIGZvciBoaC5ydSBBUEkvVUksIGd1YXAucnUgUHl0aG9uL0dvIGFuZCBhbW9DUk06IEFQSSwgVUksIGxvYWQsIERCIGFuZCBLYWZrYSBzdWl0ZXMuIFtTb3VyY2VdKGh0dHBzOi8vZ2l0aHViLmNvbS9zc3Jqa2svcWEtYXJzZW5hbCkgfCBQeXRob24sIEdvLCBQbGF5d3JpZ2h0LCBLYWZrYSB8CnwgW21vYml1c10oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL21vYml1cy8pIHwgTW9iaWxlIHRlc3QgYXV0b21hdGlvbiBmb3IgQW5kcm9pZCBhbmQgaU9TOiA5NTAgdGVzdHMsIDk5JSBjb2RlIGNvdmVyYWdlLCBzY3JlZW4gb2JqZWN0cywgZGV2aWNlIHBvb2xpbmcuIFtTb3VyY2VdKGh0dHBzOi8vZ2l0aHViLmNvbS9zc3Jqa2svbW9iaXVzKSB8IFB5dGhvbiwgQXBwaXVtIDIueCwgcHl0ZXN0IHwKfCBbbm9lbWFdKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby9ub2VtYS8pIHwgTmV1cm8tc3ltYm9saWMgZW5naW5lZXJpbmc6IGFuIExMTSBwcm9wb3NlcyBzb2x1dGlvbnMsIFozIHZlcmlmaWVzIHRoZW0gYWdhaW5zdCBmb3JtYWwgY29udHJhY3RzIGFuZCByZXR1cm5zIENFR0lTIGNvdW50ZXJleGFtcGxlcywgY2FuZGlkYXRlcyBydW4gaW4gYSBzYW5kYm94LCBpbmNpZGVudHMgYmVjb21lIHZlcmlmaWVkIHB1bGwgcmVxdWVzdHMuIHYyIGFkZHMgaHlicmlkIG1lbW9yeSwgb3B0LWluIExpblVDQiByb3V0aW5nIGFuZCBSTFZSIGRhdGFzZXQgZXhwb3J0LiBbU291cmNlXShodHRwczovL2dpdGh1Yi5jb20vc3NyamtrL25vZW1hKSB8IFB5dGhvbiwgWjMsIEZhc3RBUEksIGdSUEMgfAp8IFt2b2xsZXldKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby92b2xsZXkvKSB8IExvYWQtdGVzdGluZyBwbGF0Zm9ybTogQysrMjAgYXN5bmMgY29yZSwgWUFNTCBzY2VuYXJpb3MsIE9BdXRoMi9tVExTL1ZhdWx0LCBPVExQIGFuZCBQcm9tZXRoZXVzLCBQeXRob24gU0RLLiBbU291cmNlXShodHRwczovL2dpdGh1Yi5jb20vc3NyamtrL3ZvbGxleSkgfCBDKysyMCwgQm9vc3QuQmVhc3QsIGdSUEMgfAp8IFtiMnctY3J5cHRvLXRnLWJvdF0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL2Iydy1jcnlwdG8tdGctYm90LykgfCBUZWxlZ3JhbSBjcnlwdG8gcGxhdGZvcm06IHBvcnRmb2xpbyB0cmFja2luZywgcHJpY2UgbW9uaXRvcmluZyBhbmQgYWxlcnRzLiBbU291cmNlXShodHRwczovL2dpdGh1Yi5jb20vc3NyamtrL2Iydy1jcnlwdG8tdGctYm90KSB8IFB5dGhvbiwgYWlvZ3JhbSwgUG9zdGdyZVNRTCB8CnwgW3R0X2JvdF0oaHR0cHM6Ly9zc3Jqa2suZ2l0aHViLmlvL3R0X2JvdC8pIHwgVGVsZWdyYW0gdGFzayBhbmQgc2VydmljZS1tb25pdG9yaW5nIGJvdDogYW4gYXN5bmNpbyB3b3JrZXIgcG9vbCBjaGVja3MgZW5kcG9pbnRzLCBrZWVwcyBzdGF0dXNlcyBhbmQgZXhwb3J0cyBDU1YgcmVwb3J0cy4gW1NvdXJjZV0oaHR0cHM6Ly9naXRodWIuY29tL3Nzcmpray90dF9ib3QpIHwgUHl0aG9uLCBhaW9ncmFtIHwKfCBbJmx0OzMgKEhlYXJ0MyldKGh0dHBzOi8vc3NyamtrLmdpdGh1Yi5pby90d2luYnktc3dpcGUtYm90LykgfCBUd2luYnkgcHJvZmlsZSBhdXRvbWF0aW9uIG9uIEFuZHJvaWQvaVBob25lL01hYzsgZXhwZXJpbWVudGFsIEFQSSBjb3JlLCAzMDIgdGVzdHMuIEFJIG1vZHVsZXMgcmVtYWluIHN0YW5kYWxvbmU7IDI4IHJlZ2lzdHJ5IHNwZWNpZmljYXRpb25zIGFyZSBub3QgdmVyaWZpZWQgaW50ZWdyYXRpb25zLiBbU291cmNlXShodHRwczovL2dpdGh1Yi5jb20vc3NyamtrL3R3aW5ieS1zd2lwZS1ib3QpIHwgUHl0aG9uLCBBcHBpdW0sIHVpYXV0b21hdG9yMiwgRmFzdEFQSSB8CnwgW3Nzcmpray5naXRodWIuaW9dKGh0dHBzOi8vZ2l0aHViLmNvbS9zc3Jqa2svc3NyamtrLmdpdGh1Yi5pbykgfCBUaGUgcHJvamVjdCBodWIgYW5kIHNlcnZpY2VzIHNpdGU7IGFsc28gaG9tZSB0byB0aGUgW0Bzc3Jqa2tfYm90XShodHRwczovL3QubWUvc3NyamtrX2JvdCkgY2F0YWxvZ3VlIHdvcmtlciBpbiBbYm90L10oaHR0cHM6Ly9naXRodWIuY29tL3Nzcmpray9zc3Jqa2suZ2l0aHViLmlvL3RyZWUvbWFpbi9ib3QpLiB8IEhUTUwsIENTUywgSmF2YVNjcmlwdCwgQ2xvdWRmbGFyZSBXb3JrZXJzIHwKCiMjIFN0YWNrCgpQeXRob24gwrcgVHlwZVNjcmlwdCDCtyBHbyDCtyBSdXN0IMK3IEMrKyDCtyBTb2xpZGl0eSDCtyBGYXN0QVBJIMK3IGFpb2dyYW0gwrcgUmVhY3QgwrcgTm9kZS5qcyDCtyBQb3N0Z3JlU1FMIMK3IFJlZGlzIMK3IEthZmthIMK3IERvY2tlciDCtyBLdWJlcm5ldGVzIMK3IEdpdEh1YiBBY3Rpb25zIMK3IFBsYXl3cmlnaHQgwrcgcHl0ZXN0IMK3IFByb21ldGhldXMKCiMjIENvbnRhY3QKCi0gR2l0SHViOiBbZ2l0aHViLmNvbS9zc3Jqa2tdKGh0dHBzOi8vZ2l0aHViLmNvbS9zc3Jqa2spCi0gVGVsZWdyYW06IFtAc3NyamtrXShodHRwczovL3QubWUvc3NyamtrKQotIENoYW5uZWxzOiBbQGIyd21haW5dKGh0dHBzOi8vdC5tZS9iMndtYWluKQotIEVtYWlsOiBbcmF5MDEzbGVmZUBnbWFpbC5jb21dKG1haWx0bzpyYXkwMTNsZWZlQGdtYWlsLmNvbSkKCi0tLQoKIyMg0KDRg9GB0YHQutC40LkKCioq0KHQtdGA0LPQtdC5INCh0LjRgtC90LjQutC+0LIqKiDigJQg0YTRg9C70YHRgtC10Lot0LjQvdC20LXQvdC10YA6IFRlbGVncmFtLdCx0L7RgtGLLCDQuNC90YLQtdGA0L3QtdGCLdC80LDQs9Cw0LfQuNC90Ysg0YEg0LHQvtGC0LDQvNC4LCBXZWIzINC4IEFJLdC40L3RgdGC0YDRg9C80LXQvdGC0YsuINCf0LjRiNGDINC90LAgUHl0aG9uINC4IFR5cGVTY3JpcHQsINC/0L7QutGA0YvQstCw0Y4g0YLQtdGB0YLQsNC80LgsINC00LXQv9C70L7RjiDQsiBEb2NrZXIg0Lgg0L/QvtC60LDQt9GL0LLQsNGOINC20LjQstGL0LUg0LjQvdGC0LXRgNGE0LXQudGB0YssINCwINC90LUg0LzQsNC60LXRgtGLLgoKLSDQmtCw0YLQsNC70L7QsyDQv9GA0L7QtdC60YLQvtCyINCyIFRlbGVncmFtOiBbQHNzcmpra19ib3RdKGh0dHBzOi8vdC5tZS9zc3Jqa2tfYm90KQotINCS0YHQtSDQv9GA0L7QtdC60YLRiyDQuCDRgdGB0YvQu9C60Lg6IFtzc3Jqa2suZ2l0aHViLmlvXShodHRwczovL3Nzcmpray5naXRodWIuaW8vKQotINCh0LLRj9C30Yw6IFtAc3NyamtrXShodHRwczovL3QubWUvc3NyamtrKQoKMjIg0LbQuNCy0YvRhSDRgdCw0LnRgtCwINCy0LzQtdGB0YLQtSDRgSDRjdGC0LjQvCDRhdCw0LHQvtC8LCA0IFRlbGVncmFtLdCx0L7RgtCwLCDQvdCw0LPRgNGD0LfQvtGH0L3QvtC1INGC0LXRgdGC0LjRgNC+0LLQsNC90LjQtSDQuCDQuNC90LbQtdC90LXRgNC90YvQtSDQuNC90YHRgtGA0YPQvNC10L3RgtGLLgo=
+<div align="center">
+
+# Sergey Sitnikov
+
+**Full-stack engineer · Telegram bots · Web3 · AI tooling**
+
+[GitHub](https://github.com/ssrjkk) · [Telegram](https://t.me/ssrjkk) · [Bot catalogue](https://t.me/ssrjkk_bot) · [Projects hub](https://ssrjkk.github.io/)
+
+</div>
+
+---
+
+I build and operate web services, Telegram bots and internal tools. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
+
+21 live sites (this hub included), 4 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
+
+## Live projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/corvid_crm/"><img src="assets/shots/corvid_crm.jpg" alt="Corvid CRM landing: freelance deals, invoices and analytics"></a>
+
+**corvid_crm — CRM for freelance work**
+
+Deals, invoices, clients, tasks and analytics in one interface. Next.js 16 on the App Router, 59 unit and 7 e2e tests in CI.
+
+TypeScript · Next.js · Tailwind v4 · Playwright
+
+[Site](https://ssrjkk.github.io/corvid_crm/) · [Source](https://github.com/ssrjkk/corvid_crm)
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/bothive/"><img src="assets/shots/bothive.jpg" alt="Bothive landing page with live dashboard preview"></a>
+
+**bothive — bot fleet control**
+
+Self-hosted orchestration for bots on eight platforms: BullMQ queues, sandboxed script engine, webhooks, Prometheus metrics.
+
+TypeScript · Fastify · React · Redis · PostgreSQL
+
+[Site](https://ssrjkk.github.io/bothive/) · [Source](https://github.com/ssrjkk/bothive)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/raven/"><img src="assets/shots/raven.jpg" alt="Raven landing page: self-hosted MCP server with 66 tools"></a>
+
+**raven — self-hosted MCP server**
+
+66 tools over stdio and HTTP, workspace confinement and keyed auth. One process you host yourself, MIT licensed.
+
+Python · FastAPI · MCP · Rust / Go
+
+[Site](https://ssrjkk.github.io/raven/) · [Docs](https://ssrjkk.github.io/raven/docs/) · [Source](https://github.com/ssrjkk/raven)
+</td>
+<td width="50%" valign="top">
+<a href="https://wake-7k6.pages.dev"><img src="assets/shots/wake.jpg" alt="Wake terminal: Lighter perp markets, funding and Arcus markets"></a>
+
+**wake — multi-venue trading terminal**
+
+Lighter and Arcus perp markets, funding, portfolio and risk tools; copy trading, Predict and an AI agent are in the codebase. React frontend, FastAPI backend, Telegram bot.
+
+React · FastAPI · PostgreSQL · Telegram bot
+
+[Site](https://wake-7k6.pages.dev) · [Bot](https://t.me/waketrade_bot) · [Source](https://github.com/ssrjkk/wake)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://t.me/tippy_on_base_bot"><img src="assets/shots/tippy-on-base.jpg" alt="Tippy Telegram bot: community economy in USDC on Base with prediction markets"></a>
+
+**tippy-on-base — USDC economy in Telegram**
+
+Tips, donation pages, LMSR prediction markets and a Mini App on Base. Zero gas for users, proof of reserves on the dashboard. The bot and the [landing page](https://ssrjkk.github.io/tippy-on-base/) work; the Cloudflare app and API are down.
+
+Python · aiogram · Base / USDC · Mini App
+
+[Bot](https://t.me/tippy_on_base_bot) · [Source](https://github.com/ssrjkk/tippy-on-base)
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/drafter/"><img src="assets/shots/drafter.jpg" alt="Drafter: browser AI QA assistant with task modules"></a>
+
+**drafter — AI QA assistant**
+
+Browser app that turns a task description into a test plan, test cases, automation code and bug reports. Nine providers, bring your own key.
+
+TypeScript · React · 9 AI providers
+
+[Site](https://ssrjkk.github.io/drafter/) · [Source](https://github.com/ssrjkk/drafter)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/ezzoffer/"><img src="assets/shots/ezzoffer.jpg" alt="EZOffer site: job search automation for hh.ru"></a>
+
+**ezzoffer — job search automation for hh.ru**
+
+Vacancy matching, cover letters, resume management and Telegram notifications. Next.js app with a documented provider layer.
+
+TypeScript · Next.js · hh.ru API
+
+[Site](https://ssrjkk.github.io/ezzoffer/) · [Source](https://github.com/ssrjkk/ezzoffer)
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/harvest/"><img src="assets/shots/harvest.jpg" alt="Harvest site: QA stand for EVM testnets"></a>
+
+**harvest — QA stand for EVM testnets**
+
+Wallet fleet, scenarios, network health and run reports for public testnets. Testnets only, plus a Telegram bot for the operator.
+
+Python · EVM testnets · Telegram bot
+
+[Site](https://ssrjkk.github.io/harvest/) · [Source](https://github.com/ssrjkk/harvest)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/shroud/"><img src="assets/shots/shroud.jpg" alt="Shroud lab: protocol run in the browser"></a>
+
+**shroud — FHE research prototype**
+
+Training over encrypted data on an fhEVM app chain: escrow-backed tasks, a mock-verified STARK proof-of-compute path, streaming payouts and threshold decryption. Research code, not audited.
+
+Solidity · TypeScript · Rust · fhEVM
+
+[Site](https://ssrjkk.github.io/shroud/) · [Source](https://github.com/ssrjkk/shroud)
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/agent-skills/"><img src="assets/shots/agent-skills.jpg" alt="Agent Skills catalog: skills for AI agents"></a>
+
+**agent-skills — skills for AI agents**
+
+120 bilingual (EN/RU) skills, 20 IT roadmaps and 25 guides. Public registry, CLI `search --remote`, Python SDK and a validated CI site build.
+
+Python · Agent Skills · SDK / CLI
+
+[Site](https://ssrjkk.github.io/agent-skills/) · [Registry](https://ssrjkk.github.io/agent-skills/skills_catalog.json) · [Roadmaps](https://ssrjkk.github.io/agent-skills/roadmaps.html) · [Guides](https://ssrjkk.github.io/agent-skills/guides.html) · [Source](https://github.com/ssrjkk/agent-skills)
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<a href="https://ssrjkk.github.io/verso/"><img src="assets/shots/verso.jpg" alt="Verso landing: editorial headless CMS and block page builder"></a>
+
+**verso — editorial headless CMS**
+
+Collections, records, revisions, a redpolicy kanban and headless delivery over the API. Block page builder included; accessibility audit runs in CI.
+
+TypeScript · Next.js · tRPC · Prisma
+
+[Site](https://ssrjkk.github.io/verso/) · [Source](https://github.com/ssrjkk/verso)
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<a href="https://ssrjkk.github.io/fruktovy/"><img src="assets/shots/fruktovy.jpg" alt="Fruktovy dvorets storefront: catalogue of 25 items, order basket, 3D crate builder and gallery"></a>
+
+**fruktovy — fruit shop storefront**
+
+Catalog site for a Saint Petersburg fruit and vegetable shop: 25 items in six aisles, search, an order basket with reorder, a 3D crate builder, a seasonal calendar and a gallery lightbox. No prices — checkout opens a Telegram request and the seller names the day's price; a QR code on the storefront and in the README points at the same address. Five themes on one vanilla HTML/CSS/JS markup, self-hosted assets, zero trackers; CI runs 49 basket tests and a 193-check gate proved by 214 mutations.
+
+HTML · CSS · JavaScript · Python CI
+
+[Site](https://ssrjkk.github.io/fruktovy/) · [Source](https://github.com/ssrjkk/fruktovy)
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<a href="https://ssrjkk.github.io/our-jamon/"><img src="assets/shots/our-jamon.jpg" alt="Nash Khamon delicatessen storefront: demo-mode banner, twelve department chips and the cured ham counter"></a>
+
+**our-jamon — delicatessen storefront**
+
+Cured-ham and tapas counter at Sytny market in Saint Petersburg: 12 departments, 210 items — 183 priced and 27 awaiting confirmation — search, a cart with undo, selection by curing months and weight priced after slicing. The published page is a static storefront on GitHub Pages with self-hosted fonts and zero external requests; a Next.js engine behind it keeps orders, delivery costs, T-Bank payments and the 1C export. Neither the bank terminal nor 1C is wired to live credentials yet, so the storefront runs in demo mode: a banner across the top and noindex until the seller confirms the prices. CI runs 200 unit tests and 97 browser scenarios at 1440, 768 and 360 px, with four required checks, a protected main and a curated Pages artifact that publishes the storefront only.
+
+TypeScript · Next.js · SQLite · Playwright
+
+[Site](https://ssrjkk.github.io/our-jamon/) · [Source](https://github.com/ssrjkk/our-jamon)
+</td>
+</tr>
+</table>
+
+## Telegram bots
+
+| Bot | What it does |
+|-----|--------------|
+| [@ssrjkk_bot](https://t.me/ssrjkk_bot) | Project catalogue: `/projects`, `/sites`, `/bots`, `/top`, `/search`, screenshots, RU/EN. Runs on Cloudflare Workers. |
+| [@waketrade_bot](https://t.me/waketrade_bot) | Market cards, funding and the Lighter terminal link. |
+| [@tippy_on_base_bot](https://t.me/tippy_on_base_bot) | Tips, donation pages, prediction markets and the Mini App. |
+| [@harvest_testnet_bot](https://t.me/harvest_testnet_bot) | Testnet stand status and operator commands. |
+
+## Sites
+
+Twenty-two live sites, this hub included. Every address below is checked with a real HTTP request, and the list is the same one the [hub](https://ssrjkk.github.io/) and [@ssrjkk_bot](https://t.me/ssrjkk_bot) publish.
+
+- [ssrjkk.github.io](https://ssrjkk.github.io/) — services and live project hub
+- [bothive](https://ssrjkk.github.io/bothive/) — bot orchestration platform
+- [raven](https://ssrjkk.github.io/raven/) — MCP server site and [docs](https://ssrjkk.github.io/raven/docs/)
+- [wake](https://wake-7k6.pages.dev) — trading terminal
+- [drafter](https://ssrjkk.github.io/drafter/) — AI QA assistant
+- [ezzoffer](https://ssrjkk.github.io/ezzoffer/) — hh.ru automation
+- [harvest](https://ssrjkk.github.io/harvest/) — EVM testnet QA stand
+- [shroud](https://ssrjkk.github.io/shroud/) — FHE research site
+- [agent-skills](https://ssrjkk.github.io/agent-skills/) — skills catalog
+- [qualix](https://ssrjkk.github.io/qualix/) — QA automation platform
+- [qa-arsenal](https://ssrjkk.github.io/qa-arsenal/) — QA monorepo
+- [mobius](https://ssrjkk.github.io/mobius/) — mobile test automation
+- [noema](https://ssrjkk.github.io/noema/) — neuro-symbolic engineering
+- [volley](https://ssrjkk.github.io/volley/) — load-testing platform
+- [corvid_crm](https://ssrjkk.github.io/corvid_crm/) — freelance CRM
+- [verso](https://ssrjkk.github.io/verso/) — headless CMS
+- [fruktovy](https://ssrjkk.github.io/fruktovy/) — fruit shop storefront
+- [our-jamon](https://ssrjkk.github.io/our-jamon/) — delicatessen storefront, demo mode until prices are confirmed
+- [tippy-on-base](https://ssrjkk.github.io/tippy-on-base/) — USDC economy landing; the [bot](https://t.me/tippy_on_base_bot) works, the Cloudflare app and API are down
+- [b2w-crypto-tg-bot](https://ssrjkk.github.io/b2w-crypto-tg-bot/) — crypto portfolio platform
+- [tt_bot](https://ssrjkk.github.io/tt_bot/) — tasks and monitoring
+- [&lt;3 (Heart3)](https://ssrjkk.github.io/twinby-swipe-bot/) — Twinby profile automation; experimental API core
+
+## Engineering tools
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [qualix](https://ssrjkk.github.io/qualix/) | QA automation platform: 317 tests across six layers, 85%+ coverage, security hardening, k8s-ready. [Source](https://github.com/ssrjkk/qualix) | Python, FastAPI, pytest, Playwright, Locust |
+| [qa-arsenal](https://ssrjkk.github.io/qa-arsenal/) | QA monorepo for hh.ru API/UI, guap.ru Python/Go and amoCRM: API, UI, load, DB and Kafka suites. [Source](https://github.com/ssrjkk/qa-arsenal) | Python, Go, Playwright, Kafka |
+| [mobius](https://ssrjkk.github.io/mobius/) | Mobile test automation for Android and iOS: 950 tests, 99% code coverage, screen objects, device pooling. [Source](https://github.com/ssrjkk/mobius) | Python, Appium 2.x, pytest |
+| [noema](https://ssrjkk.github.io/noema/) | Neuro-symbolic engineering: an LLM proposes solutions, Z3 verifies them against formal contracts and returns CEGIS counterexamples, candidates run in a sandbox, incidents become verified pull requests. v2 adds hybrid memory, opt-in LinUCB routing and RLVR dataset export. [Source](https://github.com/ssrjkk/noema) | Python, Z3, FastAPI, gRPC |
+| [volley](https://ssrjkk.github.io/volley/) | Load-testing platform: C++20 async core, YAML scenarios, OAuth2/mTLS/Vault, OTLP and Prometheus, Python SDK. [Source](https://github.com/ssrjkk/volley) | C++20, Boost.Beast, gRPC |
+| [b2w-crypto-tg-bot](https://ssrjkk.github.io/b2w-crypto-tg-bot/) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. [Source](https://github.com/ssrjkk/b2w-crypto-tg-bot) | Python, aiogram, PostgreSQL |
+| [tt_bot](https://ssrjkk.github.io/tt_bot/) | Telegram task and service-monitoring bot: an asyncio worker pool checks endpoints, keeps statuses and exports CSV reports. [Source](https://github.com/ssrjkk/tt_bot) | Python, aiogram |
+| [&lt;3 (Heart3)](https://ssrjkk.github.io/twinby-swipe-bot/) | Twinby profile automation on Android/iPhone/Mac; experimental API core, 302 tests. AI modules remain standalone; 28 registry specifications are not verified integrations. [Source](https://github.com/ssrjkk/twinby-swipe-bot) | Python, Appium, uiautomator2, FastAPI |
+| [ssrjkk.github.io](https://github.com/ssrjkk/ssrjkk.github.io) | The project hub and services site; also home to the [@ssrjkk_bot](https://t.me/ssrjkk_bot) catalogue worker in [bot/](https://github.com/ssrjkk/ssrjkk.github.io/tree/main/bot). | HTML, CSS, JavaScript, Cloudflare Workers |
+
+## Stack
+
+Python · TypeScript · Go · Rust · C++ · Solidity · FastAPI · aiogram · React · Node.js · PostgreSQL · Redis · Kafka · Docker · Kubernetes · GitHub Actions · Playwright · pytest · Prometheus
+
+## Contact
+
+- GitHub: [github.com/ssrjkk](https://github.com/ssrjkk)
+- Telegram: [@ssrjkk](https://t.me/ssrjkk)
+- Channels: [@b2wmain](https://t.me/b2wmain)
+- Email: [ray013lefe@gmail.com](mailto:ray013lefe@gmail.com)
+
+---
+
+## Русский
+
+**Сергей Ситников** — фулстек-инженер: Telegram-боты, интернет-магазины с ботами, Web3 и AI-инструменты. Пишу на Python и TypeScript, покрываю тестами, деплою в Docker и показываю живые интерфейсы, а не макеты.
+
+- Каталог проектов в Telegram: [@ssrjkk_bot](https://t.me/ssrjkk_bot)
+- Все проекты и ссылки: [ssrjkk.github.io](https://ssrjkk.github.io/)
+- Связь: [@ssrjkk](https://t.me/ssrjkk)
+
+22 живых сайта вместе с этим хабом, 4 Telegram-бота, нагрузочное тестирование и инженерные инструменты.
