@@ -156,9 +156,9 @@ TypeScript · Next.js · tRPC · Prisma
 
 **fruktovy — fruit shop storefront**
 
-Catalog site for a Saint Petersburg fruit and vegetable shop: 25 items in six aisles, search, an order basket with reorder, a 3D crate builder, a seasonal calendar and a gallery lightbox. No prices — checkout opens a Telegram request and the seller names the day's price; a QR code on the storefront and in the README points at the same address. Five themes on one vanilla HTML/CSS/JS markup, self-hosted assets, zero trackers; CI runs 49 basket tests and a 193-check gate proved by 214 mutations.
+Catalog site for a Saint Petersburg fruit and vegetable shop: 25 items in six aisles with per-unit prices (95–1250 ₽ for a kg, 100 g or a piece), search, an order basket with reorder, a 3D crate builder, a seasonal calendar and a gallery lightbox. The page takes no payment — checkout sends a Telegram request and the seller replies with an SBP or card invoice, or you pay on pickup; a QR code next to the address block decodes to this same published storefront. Five themes on one vanilla HTML/CSS/JS markup, self-hosted assets, CSP and zero trackers; CI runs a 156-check static gate plus CodeQL, and the release kit adds a 65-check Chrome gate that reads contrast, touch targets and layout from the painted page.
 
-HTML · CSS · JavaScript · Python CI
+HTML · CSS · JavaScript · GitHub Actions
 
 [Site](https://ssrjkk.github.io/fruktovy/) · [Source](https://github.com/ssrjkk/fruktovy)
 </td>
