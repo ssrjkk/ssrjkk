@@ -12,7 +12,7 @@
 
 I build and operate web services, Telegram bots and internal tools. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
 
-21 live sites (this hub included), 4 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
+22 live sites (this hub included), 4 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
 
 ## Live projects
 
