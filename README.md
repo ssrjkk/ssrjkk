@@ -176,6 +176,43 @@ TypeScript · Next.js · SQLite · Playwright
 [Site](https://ssrjkk.github.io/our-jamon/) · [Releases](https://github.com/ssrjkk/our-jamon/blob/main/RELEASE.md) · [Shop guide](https://github.com/ssrjkk/our-jamon/blob/main/shop/README.md) · [Source](https://github.com/ssrjkk/our-jamon)
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/qualix/"><img src="assets/shots/qualix.jpg" alt="Экран Qualix: шесть уровней автотестов, покрытие и отчётность прогонов"></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/qa-arsenal/"><img src="assets/shots/qa-arsenal.jpg" alt="Экран QA Arsenal: наборы API, UI, нагрузки, БД и Kafka в одном пайплайне"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/mobius/"><img src="assets/shots/mobius.jpg" alt="Экран Mobius: мобильная автоматизация Android и iOS, пул устройств и прогоны"></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/noema/"><img src="assets/shots/noema.jpg" alt="Экран NOEMA: 3D-атлас нейронных связей и формальная проверка решений Z3"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/volley/"><img src="assets/shots/volley.jpg" alt="Экран Volley: профили нагрузки, сценарии и метрики предельной пропускной способности"></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/b2w-crypto-tg-bot/"><img src="assets/shots/b2w-crypto-tg-bot.jpg" alt="Экран B2W Crypto: криптопортфель, цены и алерты в Telegram"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/tt_bot/"><img src="assets/shots/tt_bot.jpg" alt="Экран tt_bot: мониторинг эндпоинтов, SSL и TCP с историей и SLA"></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://ssrjkk.github.io/twinby-swipe-bot/"><img src="assets/shots/twinby-swipe-bot.jpg" alt="Лендинг &lt;3: светлая страница проекта, три рабочих контура и список 28 приложений для дейтинга"></a>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<a href="https://ssrjkk.github.io/"><img src="assets/shots/ssrjkk.github.io.jpg" alt="Хаб проектов: карточки живых сайтов, ботов, документации и услуг"></a>
+</td>
+</tr>
 </table>
 
 ## Telegram bots
