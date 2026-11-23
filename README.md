@@ -23,7 +23,7 @@ I build and operate web services, Telegram bots and internal tools. Python and T
 
 **corvid_crm — CRM for freelance work**
 
-Deals, invoices, clients, tasks and analytics in one interface. Next.js 16 on the App Router, 59 unit and 7 e2e tests in CI.
+Deals, invoices, clients, tasks and analytics in one interface. Next.js 16 on the App Router, 200 unit and 22 e2e tests in CI.
 
 TypeScript · Next.js · Tailwind v4 · Playwright
 
@@ -38,7 +38,7 @@ Self-hosted orchestration for bots on eight platforms: BullMQ queues, sandboxed 
 
 TypeScript · Fastify · React · Redis · PostgreSQL
 
-[Site](https://ssrjkk.github.io/bothive/) · [Source](https://github.com/ssrjkk/bothive)
+[Site](https://ssrjkk.github.io/bothive/) · [API](https://github.com/ssrjkk/bothive/blob/main/docs/api.md) · [ADR](https://github.com/ssrjkk/bothive/blob/main/docs/adr/README.md) · [Deploy](https://github.com/ssrjkk/bothive/blob/main/docs/deployment.md) · [Source](https://github.com/ssrjkk/bothive)
 </td>
 </tr>
 <tr>
@@ -51,7 +51,7 @@ TypeScript · Fastify · React · Redis · PostgreSQL
 
 Python · FastAPI · MCP · Rust / Go
 
-[Site](https://ssrjkk.github.io/raven/) · [Docs](https://ssrjkk.github.io/raven/docs/) · [Source](https://github.com/ssrjkk/raven)
+[Site](https://ssrjkk.github.io/raven/) · [Docs](https://ssrjkk.github.io/raven/docs/) · [Security](https://ssrjkk.github.io/raven/security.html) · [Changelog](https://github.com/ssrjkk/raven/blob/main/CHANGELOG.md) · [Source](https://github.com/ssrjkk/raven)
 </td>
 <td width="50%" valign="top">
 <a href="https://wake-7k6.pages.dev"><img src="assets/shots/wake.jpg" alt="Wake terminal: Lighter perp markets, funding and Arcus markets"></a>
@@ -62,7 +62,7 @@ Lighter and Arcus perp markets, funding, portfolio and risk tools; copy trading,
 
 React · FastAPI · PostgreSQL · Telegram bot
 
-[Site](https://wake-7k6.pages.dev) · [Bot](https://t.me/waketrade_bot) · [Source](https://github.com/ssrjkk/wake)
+[Site](https://wake-7k6.pages.dev) · [Bot](https://t.me/waketrade_bot) · [Whitepaper](https://github.com/ssrjkk/wake/blob/main/WHITEPAPER.md) · [Changelog](https://github.com/ssrjkk/wake/blob/main/CHANGELOG.md) · [Deploy](https://github.com/ssrjkk/wake/blob/main/docs/RAILWAY_DEPLOY.md) · [Source](https://github.com/ssrjkk/wake)
 </td>
 </tr>
 <tr>
@@ -75,7 +75,7 @@ Tips, donation pages, LMSR prediction markets and a Mini App on Base. Zero gas f
 
 Python · aiogram · Base / USDC · Mini App
 
-[Bot](https://t.me/tippy_on_base_bot) · [Source](https://github.com/ssrjkk/tippy-on-base)
+[Bot](https://t.me/tippy_on_base_bot) · [Whitepaper](https://github.com/ssrjkk/tippy-on-base/blob/main/docs/WHITEPAPER.md) · [User guide](https://github.com/ssrjkk/tippy-on-base/blob/main/docs/USER_GUIDE.md) · [Security](https://github.com/ssrjkk/tippy-on-base/blob/main/SECURITY.md) · [Source](https://github.com/ssrjkk/tippy-on-base)
 </td>
 <td width="50%" valign="top">
 <a href="https://ssrjkk.github.io/drafter/"><img src="assets/shots/drafter.jpg" alt="Drafter: browser AI QA assistant with task modules"></a>
@@ -86,7 +86,7 @@ Browser app that turns a task description into a test plan, test cases, automati
 
 TypeScript · React · 9 AI providers
 
-[Site](https://ssrjkk.github.io/drafter/) · [Source](https://github.com/ssrjkk/drafter)
+[Site](https://ssrjkk.github.io/drafter/) · [Changelog](https://github.com/ssrjkk/drafter/blob/main/CHANGELOG.md) · [Security](https://github.com/ssrjkk/drafter/blob/main/SECURITY.md) · [Source](https://github.com/ssrjkk/drafter)
 </td>
 </tr>
 <tr>
@@ -99,7 +99,7 @@ Vacancy matching, cover letters, resume management and Telegram notifications. N
 
 TypeScript · Next.js · hh.ru API
 
-[Site](https://ssrjkk.github.io/ezzoffer/) · [Bot](https://t.me/ezzoffer_bot) · [Source](https://github.com/ssrjkk/ezzoffer)
+[Site](https://ssrjkk.github.io/ezzoffer/) · [Bot](https://t.me/ezzoffer_bot) · [FAQ](https://ssrjkk.github.io/ezzoffer/faq) · [Pricing](https://ssrjkk.github.io/ezzoffer/pricing) · [About](https://ssrjkk.github.io/ezzoffer/about) · [Source](https://github.com/ssrjkk/ezzoffer)
 </td>
 <td width="50%" valign="top">
 <a href="https://ssrjkk.github.io/harvest/"><img src="assets/shots/harvest.jpg" alt="Harvest site: QA stand for EVM testnets"></a>
@@ -110,7 +110,7 @@ Wallet fleet, scenarios, network health and run reports for public testnets. Tes
 
 Python · EVM testnets · Telegram bot
 
-[Site](https://ssrjkk.github.io/harvest/) · [Bot](https://t.me/harvest_testnet_bot) · [Source](https://github.com/ssrjkk/harvest)
+[Site](https://ssrjkk.github.io/harvest/) · [Bot](https://t.me/harvest_testnet_bot) · [Docs](https://ssrjkk.github.io/harvest/docs.html) · [Demo](https://ssrjkk.github.io/harvest/demo.html) · [Changelog](https://github.com/ssrjkk/harvest/blob/main/CHANGELOG.md) · [Source](https://github.com/ssrjkk/harvest)
 </td>
 </tr>
 <tr>
@@ -123,7 +123,7 @@ Training over encrypted data on an fhEVM app chain: escrow-backed tasks, a mock-
 
 Solidity · TypeScript · Rust · fhEVM
 
-[Site](https://ssrjkk.github.io/shroud/) · [Source](https://github.com/ssrjkk/shroud)
+[Site](https://ssrjkk.github.io/shroud/) · [Protocol](https://ssrjkk.github.io/shroud/protocol.html) · [Security](https://ssrjkk.github.io/shroud/security.html) · [User guide](https://github.com/ssrjkk/shroud/blob/main/USER_GUIDE.md) · [Source](https://github.com/ssrjkk/shroud)
 </td>
 <td width="50%" valign="top">
 <a href="https://ssrjkk.github.io/agent-skills/"><img src="assets/shots/agent-skills.jpg" alt="Agent Skills catalog: skills for AI agents"></a>
@@ -134,7 +134,7 @@ Solidity · TypeScript · Rust · fhEVM
 
 Python · Agent Skills · SDK / CLI
 
-[Site](https://ssrjkk.github.io/agent-skills/) · [Registry](https://ssrjkk.github.io/agent-skills/skills_catalog.json) · [Roadmaps](https://ssrjkk.github.io/agent-skills/roadmaps.html) · [Guides](https://ssrjkk.github.io/agent-skills/guides.html) · [Source](https://github.com/ssrjkk/agent-skills)
+[Site](https://ssrjkk.github.io/agent-skills/) · [Registry](https://ssrjkk.github.io/agent-skills/skills_catalog.json) · [Roadmaps](https://ssrjkk.github.io/agent-skills/roadmaps.html) · [Guides](https://ssrjkk.github.io/agent-skills/guides.html) · [Architecture](https://github.com/ssrjkk/agent-skills/blob/main/docs/ARCHITECTURE.md) · [Source](https://github.com/ssrjkk/agent-skills)
 </td>
 </tr>
 <tr>
@@ -147,7 +147,7 @@ Collections, records, revisions, a redpolicy kanban and headless delivery over t
 
 TypeScript · Next.js · tRPC · Prisma
 
-[Site](https://ssrjkk.github.io/verso/) · [Source](https://github.com/ssrjkk/verso)
+[Site](https://ssrjkk.github.io/verso/) · [Decisions](https://github.com/ssrjkk/verso/blob/main/docs/DECISIONS.md) · [Deploy](https://github.com/ssrjkk/verso/blob/main/docs/DEPLOYMENT.md) · [Source](https://github.com/ssrjkk/verso)
 </td>
 </tr>
 <tr>
@@ -156,11 +156,11 @@ TypeScript · Next.js · tRPC · Prisma
 
 **fruktovy — fruit shop storefront**
 
-Catalog site for a fruit and vegetable shop at Sytninskaya ul. 12 in Saint Petersburg: 25 items in six aisles with per-unit prices (95–1250 ₽ for a kg, 100 g or a piece), search, an order basket with reorder, a 3D crate builder, a seasonal calendar and a gallery lightbox. The page takes no payment — checkout sends a Telegram request and the seller replies with an SBP or card invoice, or you pay on pickup; a QR code next to the address block decodes to this same published storefront. The address, opening hours, both shop phone numbers and the «4.7 · 39 ratings · 22 reviews» pill come from the shop's Yandex Maps organisation card, and that map is the only third-party embed — it loads on click. Five themes on one vanilla HTML/CSS/JS markup, self-hosted assets, CSP and zero trackers; CI runs a 157-check static gate plus CodeQL, and the release kit adds a 65-check Chrome gate that reads contrast, touch targets and layout from the painted page.
+Catalog site for a fruit and vegetable shop at Sytninskaya ul. 12 in Saint Petersburg: 25 items in six aisles with per-unit prices (95–1250 ₽ for a kg, 100 g or a piece), search, an order basket with reorder, a 3D crate builder, a seasonal calendar and a gallery lightbox. The page takes no payment — checkout sends a Telegram request and the seller replies with an SBP or card invoice, or you pay on pickup; a QR code next to the address block decodes to this same published storefront. The address, opening hours, both shop phone numbers and the «4.7 · 39 ratings · 22 reviews» pill come from the shop's Yandex Maps organisation card, and that map is the only third-party embed — it loads on click. Five themes on one vanilla HTML/CSS/JS markup, self-hosted assets, CSP and zero trackers; CI runs an 87-check static gate plus CodeQL, and the release job rebuilds the archive and verifies its ten files.
 
 HTML · CSS · JavaScript · GitHub Actions
 
-[Site](https://ssrjkk.github.io/fruktovy/) · [Source](https://github.com/ssrjkk/fruktovy)
+[Site](https://ssrjkk.github.io/fruktovy/) · [Deploy](https://github.com/ssrjkk/fruktovy/blob/main/AGENT_DEPLOY.md) · [Source](https://github.com/ssrjkk/fruktovy)
 </td>
 </tr>
 <tr>
@@ -173,7 +173,7 @@ Cured-ham and tapas counter at Sytny market in Saint Petersburg: 12 departments,
 
 TypeScript · Next.js · SQLite · Playwright
 
-[Site](https://ssrjkk.github.io/our-jamon/) · [Source](https://github.com/ssrjkk/our-jamon)
+[Site](https://ssrjkk.github.io/our-jamon/) · [Releases](https://github.com/ssrjkk/our-jamon/blob/main/RELEASE.md) · [Shop guide](https://github.com/ssrjkk/our-jamon/blob/main/shop/README.md) · [Source](https://github.com/ssrjkk/our-jamon)
 </td>
 </tr>
 </table>
@@ -219,14 +219,14 @@ Twenty-two live sites, this hub included. Every address below is checked with a 
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [qualix](https://ssrjkk.github.io/qualix/) | QA automation platform: 317 tests across six layers, 85%+ coverage, security hardening, k8s-ready. [Source](https://github.com/ssrjkk/qualix) | Python, FastAPI, pytest, Playwright, Locust |
-| [qa-arsenal](https://ssrjkk.github.io/qa-arsenal/) | QA monorepo for hh.ru API/UI, guap.ru Python/Go and amoCRM: API, UI, load, DB and Kafka suites. [Source](https://github.com/ssrjkk/qa-arsenal) | Python, Go, Playwright, Kafka |
-| [mobius](https://ssrjkk.github.io/mobius/) | Mobile test automation for Android and iOS: 950 tests, 99% code coverage, screen objects, device pooling. [Source](https://github.com/ssrjkk/mobius) | Python, Appium 2.x, pytest |
+| [qualix](https://ssrjkk.github.io/qualix/) | QA automation platform: 462 tests across six CI layers, 98.66% coverage, security hardening, k8s-ready. [ADR](https://github.com/ssrjkk/qualix/blob/main/docs/adr/README.md) · [Changelog](https://github.com/ssrjkk/qualix/blob/main/CHANGELOG.md) · [Source](https://github.com/ssrjkk/qualix) | Python, FastAPI, pytest, Playwright, Locust |
+| [qa-arsenal](https://ssrjkk.github.io/qa-arsenal/) | QA monorepo for hh.ru API/UI, guap.ru Python/Go and amoCRM: API, UI, load, DB and Kafka suites. [Showcase](https://ssrjkk.github.io/qa-arsenal/showcase/) · [Source](https://github.com/ssrjkk/qa-arsenal) | Python, Go, Playwright, Kafka |
+| [mobius](https://ssrjkk.github.io/mobius/) | Mobile test automation for Android and iOS: 950 tests, 99% code coverage, screen objects, device pooling. [Usage](https://github.com/ssrjkk/mobius/blob/main/docs/USAGE.md) · [Showcase](https://ssrjkk.github.io/mobius/showcase/) · [Changelog](https://github.com/ssrjkk/mobius/blob/main/CHANGELOG.md) · [Source](https://github.com/ssrjkk/mobius) | Python, Appium 2.x, pytest |
 | [noema](https://ssrjkk.github.io/noema/) | Neuro-symbolic engineering: an LLM proposes solutions, Z3 verifies them against formal contracts and returns CEGIS counterexamples, candidates run in a sandbox, incidents become verified pull requests. v2 adds hybrid memory, opt-in LinUCB routing and RLVR dataset export. [Showcase](https://ssrjkk.github.io/noema/showcase/) · [Atlas](https://ssrjkk.github.io/noema/atlas.html) · [Usage guide](https://github.com/ssrjkk/noema/blob/main/docs/usage-guide.md) · [Whitepaper](https://github.com/ssrjkk/noema/blob/main/docs/WHITEPAPER.md) · [Source](https://github.com/ssrjkk/noema) | Python, Z3, FastAPI, gRPC |
-| [volley](https://ssrjkk.github.io/volley/) | Load-testing platform: C++20 async core, YAML scenarios, OAuth2/mTLS/Vault, OTLP and Prometheus, Python SDK. [Source](https://github.com/ssrjkk/volley) | C++20, Boost.Beast, gRPC |
-| [b2w-crypto-tg-bot](https://ssrjkk.github.io/b2w-crypto-tg-bot/) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. [Source](https://github.com/ssrjkk/b2w-crypto-tg-bot) | Python, aiogram, PostgreSQL |
-| [tt_bot](https://ssrjkk.github.io/tt_bot/) | Self-hosted Telegram endpoint monitor: HTTP/HTTPS, SSL certificate and TCP probes behind an anti-rebinding SSRF guard, per-user access boundaries, throttling, per-monitor SLA with P50/P95, SQLite WAL history and sanitized CSV export. 35 offline tests, 93% coverage. [Showcase](https://ssrjkk.github.io/tt_bot/showcase/) · [Source](https://github.com/ssrjkk/tt_bot) | Python, aiogram 3, aiosqlite |
-| [&lt;3](https://ssrjkk.github.io/twinby-swipe-bot/) | Dating agent with three loops — Android/iOS screen vision (ADB, Appium, uiautomator2), browser vision (Playwright with a saved profile) and experimental REST clients: a VLM reads the card, InsightFace checks the photos, a three-node LangGraph agent writes the replies and a FastAPI control panel switches mode, driver, platform and AI key at runtime. 102 tests, 46 of them standard-library-only. The 28 registry entries are platform specifications, not verified integrations. [Integration guide](https://github.com/ssrjkk/twinby-swipe-bot/blob/main/AGENT_INTEGRATION_GUIDE.md) · [Source](https://github.com/ssrjkk/twinby-swipe-bot) | Python, Appium, uiautomator2, FastAPI |
+| [volley](https://ssrjkk.github.io/volley/) | Load-testing platform: C++20 async core, YAML scenarios, OAuth2/mTLS/Vault, OTLP and Prometheus, Python SDK. [Showcase](https://ssrjkk.github.io/volley/showcase/) · [Architecture](https://github.com/ssrjkk/volley/blob/main/docs/architecture.md) · [Source](https://github.com/ssrjkk/volley) | C++20, Boost.Beast, gRPC |
+| [b2w-crypto-tg-bot](https://ssrjkk.github.io/b2w-crypto-tg-bot/) | Telegram crypto platform: portfolio tracking, price monitoring and alerts. [Showcase](https://ssrjkk.github.io/b2w-crypto-tg-bot/showcase/) · [API](https://github.com/ssrjkk/b2w-crypto-tg-bot/blob/main/docs/api_reference.md) · [Deploy](https://github.com/ssrjkk/b2w-crypto-tg-bot/blob/main/docs/deployment.md) · [Source](https://github.com/ssrjkk/b2w-crypto-tg-bot) | Python, aiogram, PostgreSQL |
+| [tt_bot](https://ssrjkk.github.io/tt_bot/) | Self-hosted Telegram endpoint monitor: HTTP/HTTPS, SSL certificate and TCP probes behind an anti-rebinding SSRF guard, per-user access boundaries, throttling, per-monitor SLA with P50/P95, SQLite WAL history and sanitized CSV export. 35 offline tests, 93% coverage. [Showcase](https://ssrjkk.github.io/tt_bot/showcase/) · [Architecture](https://github.com/ssrjkk/tt_bot/blob/main/ARCHITECTURE.md) · [Source](https://github.com/ssrjkk/tt_bot) | Python, aiogram 3, aiosqlite |
+| [&lt;3](https://ssrjkk.github.io/twinby-swipe-bot/) | Dating agent with three loops — Android/iOS screen vision (ADB, Appium, uiautomator2), browser vision (Playwright with a saved profile) and experimental REST clients: a VLM reads the card, InsightFace checks the photos, a three-node LangGraph agent writes the replies and a FastAPI control panel switches mode, driver, platform and AI key at runtime. 102 tests, 46 of them standard-library-only. The 28 registry entries are platform specifications, not verified integrations. [Integration guide](https://github.com/ssrjkk/twinby-swipe-bot/blob/main/AGENT_INTEGRATION_GUIDE.md) · [Security](https://github.com/ssrjkk/twinby-swipe-bot/blob/main/SECURITY.md) · [Source](https://github.com/ssrjkk/twinby-swipe-bot) | Python, Appium, uiautomator2, FastAPI |
 | [ssrjkk.github.io](https://github.com/ssrjkk/ssrjkk.github.io) | The project hub and services site; also home to the [@ssrjkk_bot](https://t.me/ssrjkk_bot) catalogue worker in [bot/](https://github.com/ssrjkk/ssrjkk.github.io/tree/main/bot). | HTML, CSS, JavaScript, Cloudflare Workers |
 
 ## Stack
