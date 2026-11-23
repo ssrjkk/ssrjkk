@@ -250,4 +250,4 @@ Python · TypeScript · Go · Rust · C++ · Solidity · FastAPI · aiogram · R
 - Все проекты и ссылки: [ssrjkk.github.io](https://ssrjkk.github.io/)
 - Связь: [@ssrjkk](https://t.me/ssrjkk)
 
-22 живых сайта вместе с этим хабом, 4 Telegram-бота, нагрузочное тестирование и инженерные инструменты.
+22 живых сайта вместе с этим хабом, 5 Telegram-ботов, нагрузочное тестирование и инженерные инструменты.
