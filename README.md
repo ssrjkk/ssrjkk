@@ -71,7 +71,7 @@ React · FastAPI · PostgreSQL · Telegram bot
 
 **tippy-on-base — USDC economy in Telegram**
 
-Tips, donation pages, LMSR prediction markets and a Mini App on Base. Zero gas for users, proof of reserves on the dashboard. The bot and the [landing page](https://ssrjkk.github.io/tippy-on-base/) work; the Cloudflare app and API are down.
+Tips, donation pages, LMSR prediction markets and a Mini App on Base. Zero gas for users, proof of reserves on the dashboard. The bot and the [landing page](https://tippy-egi.pages.dev/) work; the Cloudflare app and API are down.
 
 Python · aiogram · Base / USDC · Mini App
 
@@ -209,7 +209,7 @@ Twenty-two live sites, this hub included. Every address below is checked with a 
 - [verso](https://ssrjkk.github.io/verso/) — headless CMS
 - [fruktovy](https://ssrjkk.github.io/fruktovy/) — fruit shop storefront
 - [our-jamon](https://ssrjkk.github.io/our-jamon/) — delicatessen storefront, demo mode until prices are confirmed
-- [tippy-on-base](https://ssrjkk.github.io/tippy-on-base/) — USDC economy landing; the [bot](https://t.me/tippy_on_base_bot) works, the Cloudflare app and API are down
+- [tippy-on-base](https://tippy-egi.pages.dev/) — USDC economy landing; the [bot](https://t.me/tippy_on_base_bot) works, the Cloudflare app and API are down
 - [b2w-crypto-tg-bot](https://ssrjkk.github.io/b2w-crypto-tg-bot/) — crypto portfolio platform
 - [tt_bot](https://ssrjkk.github.io/tt_bot/) — endpoint, SSL and TCP monitoring
 - [&lt;3 (Heart3)](https://ssrjkk.github.io/twinby-swipe-bot/) — dating agent on screen vision, browser vision and experimental API
