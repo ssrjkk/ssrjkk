@@ -12,7 +12,7 @@
 
 I build and operate web services, Telegram bots and internal tools. Python and TypeScript first: FastAPI, aiogram, React, PostgreSQL, Redis, Docker, GitHub Actions. Every project below is one I can open, run and show — screenshots are taken from the live interfaces, not from mockups.
 
-22 live sites (this hub included), 4 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
+22 live sites (this hub included), 5 Telegram bots, plus load-testing and engineering tools. Source for every project is on [GitHub](https://github.com/ssrjkk).
 
 ## Live projects
 
@@ -99,7 +99,7 @@ Vacancy matching, cover letters, resume management and Telegram notifications. N
 
 TypeScript · Next.js · hh.ru API
 
-[Site](https://ssrjkk.github.io/ezzoffer/) · [Source](https://github.com/ssrjkk/ezzoffer)
+[Site](https://ssrjkk.github.io/ezzoffer/) · [Bot](https://t.me/ezzoffer_bot) · [Source](https://github.com/ssrjkk/ezzoffer)
 </td>
 <td width="50%" valign="top">
 <a href="https://ssrjkk.github.io/harvest/"><img src="assets/shots/harvest.jpg" alt="Harvest site: QA stand for EVM testnets"></a>
@@ -186,6 +186,7 @@ TypeScript · Next.js · SQLite · Playwright
 | [@waketrade_bot](https://t.me/waketrade_bot) | Market cards, funding and the Lighter terminal link. |
 | [@tippy_on_base_bot](https://t.me/tippy_on_base_bot) | Tips, donation pages, prediction markets and the Mini App. |
 | [@harvest_testnet_bot](https://t.me/harvest_testnet_bot) | Testnet stand status and operator commands. |
+| [@ezzoffer_bot](https://t.me/ezzoffer_bot) | Entry point of EZOffer: hh.ru auto-search, cover letters and the trial day start here. |
 
 ## Sites
 
