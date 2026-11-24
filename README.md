@@ -92,6 +92,30 @@ C++20 · Boost.Beast · gRPC · Python
 - **Fruktovy** — fruit and vegetable storefront with search, basket, 3D crate builder and Telegram ordering. [Site](https://ssrjkk.github.io/fruktovy/) · [Source](https://github.com/ssrjkk/fruktovy)
 - **Our Jamon** — delicatessen storefront; demo mode until prices and live payments are confirmed. [Site](https://ssrjkk.github.io/our-jamon/) · [Source](https://github.com/ssrjkk/our-jamon)
 
+<details>
+<summary>All documentation, changelogs and showcases</summary>
+
+- **Bothive:** [API](https://github.com/ssrjkk/bothive/blob/main/docs/api.md) · [ADR](https://github.com/ssrjkk/bothive/blob/main/docs/adr/README.md) · [Deploy](https://github.com/ssrjkk/bothive/blob/main/docs/deployment.md)
+- **Fruktovy:** [Deploy](https://github.com/ssrjkk/fruktovy/blob/main/AGENT_DEPLOY.md)
+- **Our Jamon:** [Releases](https://github.com/ssrjkk/our-jamon/blob/main/RELEASE.md) · [Shop guide](https://github.com/ssrjkk/our-jamon/blob/main/shop/README.md)
+- **Raven:** [Security](https://ssrjkk.github.io/raven/security.html) · [Changelog](https://github.com/ssrjkk/raven/blob/main/CHANGELOG.md)
+- **Wake:** [Whitepaper](https://github.com/ssrjkk/wake/blob/main/WHITEPAPER.md) · [Changelog](https://github.com/ssrjkk/wake/blob/main/CHANGELOG.md) · [Deploy](https://github.com/ssrjkk/wake/blob/main/docs/RAILWAY_DEPLOY.md)
+- **Tippy:** [Whitepaper](https://github.com/ssrjkk/tippy-on-base/blob/main/docs/WHITEPAPER.md) · [User guide](https://github.com/ssrjkk/tippy-on-base/blob/main/docs/USER_GUIDE.md) · [Security](https://github.com/ssrjkk/tippy-on-base/blob/main/SECURITY.md)
+- **Drafter:** [Changelog](https://github.com/ssrjkk/drafter/blob/main/CHANGELOG.md) · [Security](https://github.com/ssrjkk/drafter/blob/main/SECURITY.md)
+- **EZOffer:** [About](https://ssrjkk.github.io/ezzoffer/about) · [FAQ](https://ssrjkk.github.io/ezzoffer/faq) · [Pricing](https://ssrjkk.github.io/ezzoffer/pricing)
+- **Harvest:** [Docs](https://ssrjkk.github.io/harvest/docs.html) · [Demo](https://ssrjkk.github.io/harvest/demo.html) · [Changelog](https://github.com/ssrjkk/harvest/blob/main/CHANGELOG.md)
+- **Shroud:** [Protocol](https://ssrjkk.github.io/shroud/protocol.html) · [Security](https://ssrjkk.github.io/shroud/security.html) · [User guide](https://github.com/ssrjkk/shroud/blob/main/USER_GUIDE.md)
+- **Agent Skills:** [Architecture](https://github.com/ssrjkk/agent-skills/blob/main/docs/ARCHITECTURE.md)
+- **Qualix:** [ADR](https://github.com/ssrjkk/qualix/blob/main/docs/adr/README.md) · [Changelog](https://github.com/ssrjkk/qualix/blob/main/CHANGELOG.md)
+- **QA Arsenal:** [Showcase](https://ssrjkk.github.io/qa-arsenal/showcase/)
+- **Mobius:** [Usage](https://github.com/ssrjkk/mobius/blob/main/docs/USAGE.md) · [Showcase](https://ssrjkk.github.io/mobius/showcase/) · [Changelog](https://github.com/ssrjkk/mobius/blob/main/CHANGELOG.md)
+- **B2W Crypto:** [Showcase](https://ssrjkk.github.io/b2w-crypto-tg-bot/showcase/) · [API](https://github.com/ssrjkk/b2w-crypto-tg-bot/blob/main/docs/api_reference.md) · [Deploy](https://github.com/ssrjkk/b2w-crypto-tg-bot/blob/main/docs/deployment.md)
+- **TT Bot:** [Architecture](https://github.com/ssrjkk/tt_bot/blob/main/ARCHITECTURE.md)
+- **Heart3:** [Integration guide](https://github.com/ssrjkk/twinby-swipe-bot/blob/main/AGENT_INTEGRATION_GUIDE.md) · [Security](https://github.com/ssrjkk/twinby-swipe-bot/blob/main/SECURITY.md)
+- **Verso:** [Decisions](https://github.com/ssrjkk/verso/blob/main/docs/DECISIONS.md) · [Deploy](https://github.com/ssrjkk/verso/blob/main/docs/DEPLOYMENT.md)
+
+</details>
+
 ## Telegram
 
 [@ssrjkk_bot](https://t.me/ssrjkk_bot) · [@waketrade_bot](https://t.me/waketrade_bot) · [@tippy_on_base_bot](https://t.me/tippy_on_base_bot) · [@ezzoffer_bot](https://t.me/ezzoffer_bot) · [@harvest_testnet_bot](https://t.me/harvest_testnet_bot)
