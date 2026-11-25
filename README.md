@@ -1,12 +1,10 @@
-<div align="center">
-
 # Sergey Sitnikov
 
 **Full-stack product engineer · Telegram bots · Web3 · AI tooling**
 
 [GitHub](https://github.com/ssrjkk) · [Telegram](https://t.me/ssrjkk) · [Bot catalogue](https://t.me/ssrjkk_bot) · [Projects hub](https://ssrjkk.github.io/)
 
-</div>
+---
 
 I build and operate web services, Telegram bots and internal tools. Python and TypeScript first, with C++, Go and Rust where the problem needs them. Every project has a live interface or bot, source code and tests.
 
