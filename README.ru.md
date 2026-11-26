@@ -15,7 +15,7 @@ Python и TypeScript — основные языки; C++, Go и Rust испол
 | Raven | Noema |
 | --- | --- |
 | <img src="assets/shots/raven.jpg" width="420" alt="Raven — self-hosted MCP server"> | <img src="assets/shots/noema.jpg" width="420" alt="Noema — нейросимвольная разработка"> |
-| Self-hosted MCP server: 66 инструментов, stdio/HTTP, изоляция workspace и ключ-аутентификация. [Сайт](https://ssrjkk.github.io/raven/) · [Доки](https://ssrjkk.github.io/raven/docs/) · [Код](https://github.com/ssrjkk/raven) | LLM предлагает решение, Z3 проверяет контракт, кандидат выполняется в песочнице. [Сайт](https://ssrjkk.github.io/noema/) · [Showcase](https://ssrjkk.github.io/noema/showcase/) · [Код](https://github.com/ssrjkk/noema) |
+| Self-hosted MCP server: 66 инструментов, stdio/HTTP, изоляция workspace и ключ-аутентификация. [Сайт](https://ssrjkk.github.io/raven/) · [Доки](https://ssrjkk.github.io/raven/docs/) · [Код](https://github.com/ssrjkk/raven) | LLM предлагает решение, Z3 проверяет контракт, кандидат выполняется в песочнице. [Сайт](https://ssrjkk.github.io/noema/) · [Код](https://github.com/ssrjkk/noema) |
 
 | Wake | Volley |
 | --- | --- |
@@ -32,7 +32,7 @@ Python и TypeScript — основные языки; C++, Go и Rust испол
 - **Corvid CRM** — сделки, счета, клиенты, задачи и аналитика для фриланса. [Сайт](https://ssrjkk.github.io/corvid_crm/) · [Код](https://github.com/ssrjkk/corvid_crm)
 - **Verso** — редакционный headless CMS с ревизиями и block page builder. [Сайт](https://ssrjkk.github.io/verso/) · [Код](https://github.com/ssrjkk/verso)
 - **B2W Crypto** — Telegram-бот для портфеля, цен и алертов. [Сайт](https://ssrjkk.github.io/b2w-crypto-tg-bot/) · [Код](https://github.com/ssrjkk/b2w-crypto-tg-bot)
-- **TT Bot** — HTTP/SSL/TCP мониторинг из Telegram. [Сайт](https://ssrjkk.github.io/tt_bot/) · [Showcase](https://ssrjkk.github.io/tt_bot/showcase/) · [Код](https://github.com/ssrjkk/tt_bot)
+- **TT Bot** — HTTP/SSL/TCP мониторинг из Telegram. [Сайт](https://ssrjkk.github.io/tt_bot/) · [Код](https://github.com/ssrjkk/tt_bot)
 - **Heart3** — дейтинг-агент с UI/web vision и экспериментальными API-адаптерами. [Сайт](https://ssrjkk.github.io/twinby-swipe-bot/) · [Код](https://github.com/ssrjkk/twinby-swipe-bot)
 
 ## Инженерия и исследования
@@ -59,7 +59,7 @@ Python и TypeScript — основные языки; C++, Go и Rust испол
 - **Bothive:** [API](https://github.com/ssrjkk/bothive/blob/main/docs/api.md) · [Deploy](https://github.com/ssrjkk/bothive/blob/main/docs/deployment.md)
 - **Shroud:** [Protocol](https://ssrjkk.github.io/shroud/protocol.html) · [Security](https://ssrjkk.github.io/shroud/security.html)
 - **Agent Skills:** [Architecture](https://github.com/ssrjkk/agent-skills/blob/main/docs/ARCHITECTURE.md)
-- **Mobius:** [Usage](https://github.com/ssrjkk/mobius/blob/main/docs/USAGE.md) · [Showcase](https://ssrjkk.github.io/mobius/showcase/)
+- **Mobius:** [Usage](https://github.com/ssrjkk/mobius/blob/main/docs/USAGE.md)
 - **Verso:** [Decisions](https://github.com/ssrjkk/verso/blob/main/docs/DECISIONS.md) · [Deploy](https://github.com/ssrjkk/verso/blob/main/docs/DEPLOYMENT.md)
 
 </details>
