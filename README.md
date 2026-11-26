@@ -2,7 +2,7 @@
 
 **Full-stack product engineer · Telegram bots · Web3 · AI tooling**
 
-[GitHub](https://github.com/ssrjkk) · [Telegram](https://t.me/ssrjkk) · [Bot catalogue](https://t.me/ssrjkk_bot) · [Projects hub](https://ssrjkk.github.io/)
+[GitHub](https://github.com/ssrjkk) · [Telegram](https://t.me/ssrjkk) · [Bot catalogue](https://t.me/ssrjkk_bot) · [Projects hub](https://ssrjkk.github.io/) · [Русский](README.ru.md)
 
 ---
 
@@ -123,13 +123,3 @@ C++20 · Boost.Beast · gRPC · Python
 Python · TypeScript · Go · Rust · C++ · Solidity · FastAPI · aiogram · React · Node.js · PostgreSQL · Redis · Kafka · Docker · Kubernetes · GitHub Actions · Playwright · pytest · Prometheus
 
 [GitHub](https://github.com/ssrjkk) · [Telegram](https://t.me/ssrjkk) · [B2W Main](https://t.me/b2wmain) · [B2W Shitpost](https://t.me/+zxyfRXblOINkNjNi) · [Email](mailto:ray013lefe@gmail.com)
-
----
-
-## Русский
-
-**Сергей Ситников** — фулстек-инженер. Делаю веб-сервисы, Telegram-ботов, магазины, Web3 и AI-инструменты: от интерфейса и API до базы, тестов и деплоя.
-
-22 живых сайта, 5 Telegram-ботов. Все проекты, скриншоты и ссылки — в [хабе](https://ssrjkk.github.io/) и [каталог-боте](https://t.me/ssrjkk_bot).
-
-[GitHub](https://github.com/ssrjkk) · [Telegram](https://t.me/ssrjkk) · [Email](mailto:ray013lefe@gmail.com)
