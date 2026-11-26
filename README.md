@@ -34,7 +34,7 @@ An LLM proposes a solution, Z3 verifies it against formal contracts, and the can
 
 Python · Z3 · FastAPI · gRPC
 
-[Site](https://ssrjkk.github.io/noema/) · [Showcase](https://ssrjkk.github.io/noema/showcase/) · [Atlas](https://ssrjkk.github.io/noema/atlas.html) · [Guide](https://github.com/ssrjkk/noema/blob/main/docs/usage-guide.md) · [Whitepaper](https://github.com/ssrjkk/noema/blob/main/docs/WHITEPAPER.md) · [Source](https://github.com/ssrjkk/noema)
+[Site](https://ssrjkk.github.io/noema/) · [Atlas](https://ssrjkk.github.io/noema/atlas.html) · [Guide](https://github.com/ssrjkk/noema/blob/main/docs/usage-guide.md) · [Whitepaper](https://github.com/ssrjkk/noema/blob/main/docs/WHITEPAPER.md) · [Source](https://github.com/ssrjkk/noema)
 </td>
 </tr>
 <tr>
@@ -73,7 +73,7 @@ C++20 · Boost.Beast · gRPC · Python
 - **Corvid CRM** — deals, invoices, clients, tasks and analytics for freelance work. [Site](https://ssrjkk.github.io/corvid_crm/) · [Source](https://github.com/ssrjkk/corvid_crm)
 - **Verso** — editorial headless CMS with collections, revisions and a block page builder. [Site](https://ssrjkk.github.io/verso/) · [Source](https://github.com/ssrjkk/verso)
 - **B2W Crypto** — Telegram crypto portfolio tracking, price monitoring and alerts. [Site](https://ssrjkk.github.io/b2w-crypto-tg-bot/) · [Source](https://github.com/ssrjkk/b2w-crypto-tg-bot)
-- **TT Bot** — HTTP/HTTPS, SSL and TCP monitoring from Telegram with SLA history and CSV export. [Site](https://ssrjkk.github.io/tt_bot/) · [Showcase](https://ssrjkk.github.io/tt_bot/showcase/) · [Source](https://github.com/ssrjkk/tt_bot)
+- **TT Bot** — HTTP/HTTPS, SSL and TCP monitoring from Telegram with SLA history and CSV export. [Site](https://ssrjkk.github.io/tt_bot/) · [Source](https://github.com/ssrjkk/tt_bot)
 - **Heart3** — dating agent with screen vision, browser vision and experimental API clients. [Site](https://ssrjkk.github.io/twinby-swipe-bot/) · [Source](https://github.com/ssrjkk/twinby-swipe-bot)
 
 ## Engineering and research
@@ -105,9 +105,8 @@ C++20 · Boost.Beast · gRPC · Python
 - **Shroud:** [Protocol](https://ssrjkk.github.io/shroud/protocol.html) · [Security](https://ssrjkk.github.io/shroud/security.html) · [User guide](https://github.com/ssrjkk/shroud/blob/main/USER_GUIDE.md)
 - **Agent Skills:** [Architecture](https://github.com/ssrjkk/agent-skills/blob/main/docs/ARCHITECTURE.md)
 - **Qualix:** [ADR](https://github.com/ssrjkk/qualix/blob/main/docs/adr/README.md) · [Changelog](https://github.com/ssrjkk/qualix/blob/main/CHANGELOG.md)
-- **QA Arsenal:** [Showcase](https://ssrjkk.github.io/qa-arsenal/showcase/)
-- **Mobius:** [Usage](https://github.com/ssrjkk/mobius/blob/main/docs/USAGE.md) · [Showcase](https://ssrjkk.github.io/mobius/showcase/) · [Changelog](https://github.com/ssrjkk/mobius/blob/main/CHANGELOG.md)
-- **B2W Crypto:** [Showcase](https://ssrjkk.github.io/b2w-crypto-tg-bot/showcase/) · [API](https://github.com/ssrjkk/b2w-crypto-tg-bot/blob/main/docs/api_reference.md) · [Deploy](https://github.com/ssrjkk/b2w-crypto-tg-bot/blob/main/docs/deployment.md)
+- **Mobius:** [Usage](https://github.com/ssrjkk/mobius/blob/main/docs/USAGE.md) · [Changelog](https://github.com/ssrjkk/mobius/blob/main/CHANGELOG.md)
+- **B2W Crypto:** [API](https://github.com/ssrjkk/b2w-crypto-tg-bot/blob/main/docs/api_reference.md) · [Deploy](https://github.com/ssrjkk/b2w-crypto-tg-bot/blob/main/docs/deployment.md)
 - **TT Bot:** [Architecture](https://github.com/ssrjkk/tt_bot/blob/main/ARCHITECTURE.md)
 - **Heart3:** [Integration guide](https://github.com/ssrjkk/twinby-swipe-bot/blob/main/AGENT_INTEGRATION_GUIDE.md) · [Security](https://github.com/ssrjkk/twinby-swipe-bot/blob/main/SECURITY.md)
 - **Verso:** [Decisions](https://github.com/ssrjkk/verso/blob/main/docs/DECISIONS.md) · [Deploy](https://github.com/ssrjkk/verso/blob/main/docs/DEPLOYMENT.md)
